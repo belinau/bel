@@ -5,6 +5,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 import translations from './translations.json';
 import sampleData from './data.json';
+import MobileOptimizedCanvas from './components/MobileOptimizedCanvas';
 
 const PortfolioArchive = () => {
   const [filter, setFilter] = useState('all');
@@ -23,10 +24,10 @@ const PortfolioArchive = () => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-    
+
     checkMobile();
     window.addEventListener('resize', checkMobile);
-    
+
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
@@ -125,13 +126,14 @@ const PortfolioArchive = () => {
       <div
         ref={containerRef}
         className="pt-20 md:pt-44 pb-20 px-4 md:px-6"
-        style={{ 
+        style={{
           minHeight: isMobile ? '80vh' : 'auto',
-          overflow: 'visible'
+          overflow: isMobile ? 'auto' : 'visible',
+          touchAction: isMobile ? 'pan-y' : 'auto'
         }}
         onMouseMove={handleMouseMove}
       >
-        <div className="max-w-7xl mx-auto" style={{ position: 'relative', height: isMobile ? '70vh' : '150vh' }}>
+        <div className="max-w-7xl mx-auto" style={{ position: 'relative', height: isMobile ? '100%' : '150vh' }}>
           <AnimatedCanvas
             items={filteredItems}
             mousePos={mousePos}
@@ -549,6 +551,19 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
 };
 
 const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) => {
+  // Use the mobile-optimized canvas for mobile view
+  if (isMobile) {
+    return (
+      <MobileOptimizedCanvas
+        items={items}
+        mousePos={mousePos}
+        onSelect={onSelect}
+        getText={getText}
+      />
+    );
+  }
+
+  // Desktop canvas remains as before
   const pathRefs = useRef([]);
   const [animationOffset, setAnimationOffset] = useState(0);
 
@@ -563,8 +578,7 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
-  // CRITICAL FIX: Much shorter SVG on mobile
-  const svgHeight = isMobile ? 800 : 2400;
+  const svgHeight = 2400;
   const svgWidth = 1200;
 
   return (
@@ -572,7 +586,7 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
       <svg
         style={{
           width: '100%',
-          height: isMobile ? '100%' : 'auto',
+          height: 'auto',
           position: 'absolute',
           top: 0,
           left: 0,
@@ -582,45 +596,29 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
         viewBox={`0 0 ${svgWidth} ${svgHeight}`}
         preserveAspectRatio="xMidYMid meet"
       >
-        {/* MOBILE: Compressed paths */}
         <path
           ref={el => pathRefs.current[0] = el}
-          d={isMobile 
-            ? "M 20 100 C 500 -50, 700 250, 1180 100 C 700 -50, 500 250, 20 100 Z"
-            : "M 20 150 C 500 -150, 700 450, 1180 150 C 700 -150, 500 450, 20 150 Z"
-          }
+          d="M 20 150 C 500 -150, 700 450, 1180 150 C 700 -150, 500 450, 20 150 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
         />
         <path
           ref={el => pathRefs.current[1] = el}
-          d={isMobile
-            ? "M 20 250 C 300 100, 900 400, 1180 250 C 900 100, 300 400, 20 250 Z"
-            : "M 20 350 C 300 50, 900 650, 1180 350 C 900 50, 300 650, 20 350 Z"
-          }
+          d="M 20 350 C 300 50, 900 650, 1180 350 C 900 50, 300 650, 20 350 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
         />
         <path
           ref={el => pathRefs.current[2] = el}
-          d={isMobile
-            ? "M 20 400 C 600 300, 600 500, 1180 400 C 600 300, 600 500, 20 400 Z"
-            : "M 20 550 C 600 300, 600 800, 1180 550 C 600 300, 600 800, 20 550 Z"
-          }
+          d="M 20 550 C 600 300, 600 800, 1180 550 C 600 300, 600 800, 20 550 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
         />
         <path
           ref={el => pathRefs.current[3] = el}
-          d={isMobile
-            ? "M 20 550 C 300 450, 900 650, 1180 550 C 900 450, 300 650, 20 550 Z"
-            : "M 20 750 C 300 550, 900 950, 1180 750 C 900 550, 300 950, 20 750 Z"
-          }
+          d="M 20 750 C 300 550, 900 950, 1180 750 C 900 550, 300 950, 20 750 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
         />
         <path
           ref={el => pathRefs.current[4] = el}
-          d={isMobile
-            ? "M 20 700 C 500 600, 700 800, 1180 700 C 700 600, 500 800, 20 700 Z"
-            : "M 20 950 C 500 750, 700 1250, 1180 950 C 700 750, 500 1250, 20 950 Z"
-          }
+          d="M 20 950 C 500 750, 700 1250, 1180 950 C 700 750, 500 1250, 20 950 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
         />
       </svg>
