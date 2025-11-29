@@ -30,6 +30,18 @@ const PortfolioArchive = () => {
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
+  useEffect(() => {
+    if (selectedItem) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    return () => {
+      document.body.classList.remove('overflow-hidden');
+    };
+  }, [selectedItem]);
+
   const handleMouseMove = (e) => {
     if (containerRef.current) {
       const rect = containerRef.current.getBoundingClientRect();
@@ -217,7 +229,7 @@ const PortfolioArchive = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 50 }}
-              className="fixed inset-x-4 top-20 bottom-4 md:inset-x-20 md:top-20 md:bottom-10 bg-white rounded-2xl z-50 overflow-hidden flex flex-col shadow-2xl"
+              className="fixed inset-x-8 top-24 bottom-24 md:inset-x-20 md:top-20 md:bottom-10 bg-white rounded-2xl z-50 overflow-hidden flex flex-col shadow-2xl"
             >
               <div className="flex-1 overflow-y-auto">
                 <button
