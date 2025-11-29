@@ -1,0 +1,299 @@
+{
+  "publications": [
+    {
+      "id": "pub1",
+      "type": "publication",
+      "title": { "sl": "Zavzemanje prostora: Nove izvedbene umetniške prakse v Jugoslaviji" },
+      "author": "Jasmina Založnik",
+      "publisher": "Maska",
+      "year": 2024,
+      "additionalInfo": { "sl": "Prevod v slovenščino iz angleškega izvirnika." }
+    },
+    {
+      "id": "pub2",
+      "type": "publication",
+      "title": { "en": "The Life of Art: Transversal Lines of Care" },
+      "author": "Bojana Kunst",
+      "additionalInfo": { "en": "Prevod knjige Življenje umetnosti: prečne črte skrbi v angleščino. V pripravi na izdajo." }
+    },
+    {
+      "id": "pub3",
+      "type": "publication",
+      "title": { "sl": "Odlivanje smrti: Posmrtne maske v slovenskih javnih zbirkah" },
+      "author": "Alenka Pirman, ur.",
+      "publisher": "Inštitut za novejšo zgodovino",
+      "year": 2023,
+      "additionalInfo": { "sl": "Prevod prispevkov v slovenščino. Brezplačna eknjiga" }
+    },
+    {
+      "id": "pub4",
+      "type": "publication",
+      "title": { "sl": "Tao G. Vrhovec Sambolec: Brati Branje = Reading Reading" },
+      "author": "Mara Anjoli Vujić, ur.",
+      "publisher": "Cukrarna",
+      "year": 2023,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino" }
+    },
+    {
+      "id": "pub5",
+      "type": "publication",
+      "title": { "en": "Within Time, Beyond Time" },
+      "author": "Nika Arhar, ur.",
+      "publisher": "Nomad Dance Academy Slovenija",
+      "year": 2022,
+      "additionalInfo": { "en": "Zbornik ob deseti obletnici, prevod v angleščino" }
+    },
+    {
+      "id": "pub6",
+      "type": "publication",
+      "title": { "sl": "V času, onkraj časa" },
+      "author": "Nika Arhar ur.",
+      "publisher": "Nomad Dance Academy Slovenija",
+      "year": 2022,
+      "additionalInfo": { "sl": "Zbornik ob deseti obletnici, prevod v slovenščino" }
+    },
+    {
+      "id": "pub7",
+      "type": "publication",
+      "title": { "sl": "Vračanje pogleda" },
+      "author": "Alenka Gregorič, ur.",
+      "publisher": "Cukrarna",
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v slovenščino" }
+    },
+    {
+      "id": "pub8",
+      "type": "publication",
+      "title": { "en": "Returning the Gaze" },
+      "author": "Alenka Gregorič, ur.",
+      "publisher": "Cukrarna",
+      "year": 2022,
+      "additionalInfo": { "en": "Katalog razstave, soprevajalec v angleščino" }
+    },
+    {
+      "id": "pub9",
+      "type": "publication",
+      "title": { "sl": "Maruša Sagadin: Mokre noge = Wet Feet" },
+      "author": "Alenka Gregorič, ur.",
+      "publisher": "Cukrarna",
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, prevod v angleščino" }
+    },
+    {
+      "id": "pub10",
+      "type": "publication",
+      "title": { "sl": "Meta Grgurević, Praskanje za zlatom = Scraping for Gold" },
+      "author": "Alenka Trebušak, ur.",
+      "publisher": "Cukrarna",
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, prevod v angleščino" }
+    },
+    {
+      "id": "pub11",
+      "type": "publication",
+      "title": { "sl": "Čudovitost spomina = Wonderfulness of Memory" },
+      "author": "Alenka Gregorič, ur.",
+      "publisher": "Mestna galerija",
+      "year": 2021,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino" }
+    },
+    {
+      "id": "pub12",
+      "type": "publication",
+      "title": { "sl": "Ko gesta postane dogodek = When Gesture Becomes Event" },
+      "author": "Alenka Gregorič in Felicitas Thun Hohenstein, ur.",
+      "publisher": "Mestna galerija",
+      "year": 2021,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino in slovenščino" }
+    },
+    {
+      "id": "pub13",
+      "type": "publication",
+      "title": { "sl": "Živi objekt =Living object" },
+      "author": "Alenka Trebušak, ur.",
+      "publisher": "Mestna galerija",
+      "year": 2020,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino" }
+    },
+    {
+      "id": "pub14",
+      "type": "publication",
+      "title": { "sl": "Simpozij ob razstavi Japonska, Jugoslavija, grafični bienale: dokumenti sodelovanja" },
+      "author": "Gregor Dražil, ur.",
+      "publisher": "MGLC",
+      "year": 2019,
+      "additionalInfo": { "sl": "Avtorji: Marjeta Ciglenečki, Gregor Dražil, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa. Prevod v slovenščino: Urban Belina, Aleksandra Jovanovski. Prevod v angleščino: Katja Kosi, Jana Renee Wilcoxen." }
+    },
+    {
+      "id": "pub15",
+      "type": "publication",
+      "title": { "sl": "Cesta sestradanih" },
+      "author": "Ben Okri",
+      "publisher": "KUD Police Dubove",
+      "year": 2016,
+      "additionalInfo": { "sl": "Ključni pojmi: postkolonialna literatura, afriška sodobna literatura, britanska sodobna literatura, duhovi, predniki, reinkarnacija, magija, revščina, državljanska vojna, pričevanje otroka" }
+    },
+    {
+      "id": "pub16",
+      "type": "publication",
+      "title": { "sl": "Misleče telo" },
+      "author": "Mabel E. Todd",
+      "publisher": "Emanat",
+      "year": 2014,
+      "additionalInfo": { "sl": "Ponatis: Emanat, 2018. Ključni pojmi: anatomija človeka, kineziologija, somatologija, psihosomatika, strokovna literatura za plesalce, igralce in ostale telesno dejavne profile; študija sil, ki delujejo na človeško telo med premikanjem; integralni sistem vaj z vizualizacijo anatomskih struktur za odpravo napetosti iz telesa" }
+    },
+    {
+      "id": "pub17",
+      "type": "publication",
+      "title": { "sl": "Moja Hirošima" },
+      "author": "Junko Morimoto",
+      "publisher": "Univerza v Ljubljani in KUD AAC Zrakogled",
+      "year": 2014,
+      "additionalInfo": { "sl": "Ključni pojmi: protivojna avtorska slikanica, japonska sodobna literatura, Hirošima, bombardiranje, atomska bomba, izkušnja preživele s perspektive otroka" }
+    },
+    {
+      "id": "pub18",
+      "type": "publication",
+      "title": { "sl": "Dantejev trg" },
+      "author": "Dragan Velikić",
+      "publisher": "KUD AAC Zrakogled",
+      "year": 2013,
+      "additionalInfo": { "sl": "Ključni pojmi: srbska sodobna literatura, fragmentarnost spomina, samorefleksija, otroštvo, Pulj, prepletenost osebnih zgodovin in usod v primežu družbenih sprememb" }
+    },
+    {
+      "id": "pub19",
+      "type": "publication",
+      "title": { "sl": "Skok malteških delfinov" },
+      "author": "Francis Ebejer",
+      "publisher": "Društvo 2000 in KUD AAC Zrakogled",
+      "year": 2011,
+      "additionalInfo": { "sl": "Ključni pojmi: postkolonialna literatura, malteška sodobna literatura, ekologija, tradicija, otoška identiteta, upor proti degradaciji in izkoriščanju" }
+    },
+    {
+      "id": "pub20",
+      "type": "publication",
+      "title": { "sl": "Gejevski Dekameron" },
+      "author": "Christopher White",
+      "publisher": "ŠKUC-Lambda",
+      "year": 2011,
+      "additionalInfo": { "sl": "Ključni pojmi: kvir literatura, sodobna škotska literatura, gejevska literatura, virus HIV, epidemija AIDS-a v 80. letih 20. stol., razkritje spolne identitete, življenje LGBT skupnosti" }
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "type": "exhibition",
+      "title": { "sl": "Vedno na voljo" },
+      "year": 2023,
+      "venue": { "sl": "Moderna galerija" },
+      "description": { "sl": "skupinska razstava feministične umetnosti, uvrščeno delo Jubilej" },
+      "credits": [{ "role": { "sl": "Kustosinja" }, "name": "Martina Vovk" }]
+    },
+    {
+      "id": "proj2",
+      "type": "performance",
+      "title": { "en": "What Makes You Happy?" },
+      "author": "Urban Belina in Jasmina Založnik",
+      "year": 2021,
+      "venue": { "en": "Tårnby Park Performance Festival 2021, Danska" }
+    },
+    {
+      "id": "proj3",
+      "type": "performance",
+      "title": { "sl": "EDA: Jubilej" },
+      "year": 2021,
+      "venue": { "sl": "Glej in Moment" }
+    },
+    {
+      "id": "proj4",
+      "type": "performance",
+      "title": { "sl": "EDA: Državljanki" },
+      "year": 2020,
+      "venue": { "sl": "Glej in Moment" }
+    },
+    {
+      "id": "proj5",
+      "type": "performance",
+      "title": { "sl": "Sindikat odklonskih entitet 2019" },
+      "year": 2019,
+      "publisher": "Emanat"
+    },
+    {
+      "id": "proj6",
+      "type": "performance",
+      "title": { "sl": "Sindikat odklonskih entitet 2018" },
+      "year": 2018,
+      "publisher": "Emanat"
+    },
+    {
+      "id": "proj7",
+      "type": "performance",
+      "title": { "sl": "Lažna dojka" },
+      "author": "Urban Belina",
+      "year": 2017,
+      "description": { "sl": "lastna produkcija" }
+    },
+    {
+      "id": "proj8",
+      "type": "performance",
+      "title": { "sl": "Terra umbilicus" },
+      "author": "Daniel Petković",
+      "year": 2015,
+      "publisher": "Emanat"
+    },
+    {
+      "id": "proj9",
+      "type": "performance",
+      "title": { "sl": "∆ Lacanoid" },
+      "year": 2012,
+      "publisher": "Ljudmila"
+    },
+    {
+      "id": "proj10",
+      "type": "performance",
+      "title": { "en": "Biti svoj lastni prevod / Being One's Own Translation" },
+      "author": "Urban Belina",
+      "year": 2010,
+      "publisher": "Center za slovensko književnost, Ljudmila in KUD AAC Zrakogled"
+    },
+    {
+      "id": "proj11",
+      "type": "performance",
+      "title": { "sl": "Poletje s klovnom" },
+      "author": "Nina Kokelj",
+      "year": 2009
+    },
+    {
+      "id": "proj12",
+      "type": "performance",
+      "title": { "sl": "Medeja Blossoming" },
+      "author": "Saška Rakef, Vanda Butković in Urban Belina",
+      "year": 2008,
+      "venue": { "sl": "Festival Patosoffiranje, Smederevo, Srbija" }
+    },
+    {
+      "id": "proj13",
+      "type": "performance",
+      "title": { "sl": "Mama / La Madre" },
+      "author": "Vesna Furlanič Valentinčič",
+      "year": 2008,
+      "publisher": "KUD AAC Zrakogled, Koper"
+    },
+    {
+      "id": "proj14",
+      "type": "exhibition",
+      "title": { "sl": "Javni kipi" },
+      "year": 2007,
+      "publisher": "Zavod za kiparstvo",
+      "credits": [{ "role": { "sl": "Selektor" }, "name": "dr. Aleš Erjavec" }]
+    },
+    {
+      "id": "proj15",
+      "type": "exhibition",
+      "title": { "sl": "Sublimno v kiparstvu" },
+      "year": 2006,
+      "publisher": "Zavod za kiparstvo",
+      "credits": [{ "role": { "sl": "Selektor" }, "name": "dr. Aleš Erjavec" }]
+    }
+  ]
+}

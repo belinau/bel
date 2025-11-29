@@ -1,0 +1,973 @@
+{
+  "publications": [
+    {
+      "id": "pub1",
+      "type": "publication",
+      "title": { "sl": "70 let Grafičnega bienala Ljubljana: Zbornik", "en": "70 Years of the Ljubljana Biennale of Graphic Arts: A Reader" },
+      "author": { "sl": "Stefana Djokic, Kaja Kraner, Ana Sladojević, Nevenka Šivavec (avtor, urednik), Breda Škrjanec, Božidar Zrinski, Gregor Dražil (urednik)", "en": "Stefana Djokic, Kaja Kraner, Ana Sladojević, Nevenka Šivavec (author, editor), Breda Škrjanec, Božidar Zrinski, Gregor Dražil (editor)" },
+      "publisher": { "sl": "MGLC", "en": "MGLC" },
+      "year": 2025,
+      "isbn": "978-961-7197-30-3",
+      "additionalInfo": { "sl": "Prevod vseh avtorjev razen Pitola v slovenščino ali angleščino.", "en": "Translation of all contributors apart from Pitol into English and Slovenian. Reader, dedicated to the 70th anniversary of the Ljubljana Biennale of Graphic Arts, is the principal publication with which the International Centre of Graphic Arts (MGLC) marked the Biennale's jubilee year. Its purpose is to complement the existing body of literature on the Biennale and to encourage new ways of reflecting on this enduring event – its past, its present, and its future. The authors of the texts place the Biennale within broader theoretical contexts, draw attention to pivotal events and significant figures, and trace the transformations in the exhibition's development from 1955 to its most recent editions. Alongside the essays, two further elements form an essential part of the publication: the visual material, which documents events at and around the Biennale exhibitions, and the chapter Biennale in Infographics, which presents intriguing insights derived from statistical analyses of the Biennale's rich history." },
+      "thumbnail": "/images/70let-bienale.jpg",
+      "pages": "592",
+      "languageFrom": { "sl": "angleščina, slovenščina", "en": "English, Slovenian" },
+      "languageTo": { "sl": "slovenščina, angleščina", "en": "Slovenian, English" },
+      "publisherLink": { "sl": "https://www.mglc.si/si/trgovina/102/70-let-graficnega-bienala-ljubljana-zbornik/", "en": "https://www.mglc.si/en/shop/102/70-years-of-the-ljubljana-biennale-of-graphic-arts-a-reader/" }
+    },
+    {
+      "id": "pub2",
+      "type": "publication",
+      "title": { "sl": "Victor Vasarely v odmevu", "en": "Victor Vasarely v odmevu" },
+      "author": { "sl": "Victor Vasarely (umetnik), Gregor Dražil (urednik, avtor uvoda, etc., kustos razstave)", "en": "Victor Vasarely (artist), Gregor Dražil (editor, author of introduction, etc., curator of an exhibition)" },
+      "publisher": { "sl": "MGLC", "en": "MGLC" },
+      "year": 2025,
+      "isbn": "978-961-7197-21-1",
+      "additionalInfo": { "sl": "Prevod v slovenščino iz angleškega izvirnika.", "en": "Translation into Slovenian from the English original." },
+      "thumbnail": "/images/vasarely.jpg",
+      "pages": "80",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.mglc.si/si/trgovina/101/victor-vasarely-v-odmevu/", "en": "https://www.mglc.si/en/shop/101/victor-vasarely-in-echo/" }
+    },
+    {
+      "id": "pub2a",
+      "type": "publication",
+      "title": { "sl": "Broken promises", "en": "Broken promises" },
+      "author": { "sl": "John Fekner (umetnik), Jani Pirnat (avtor dodatnega besedila), Brad Downey (kustos)", "en": "John Fekner (artist), Jani Pirnat (author of additional text), Brad Downey (curator)" },
+      "publisher": { "sl": "Spazioc21", "en": "Spazioc21" },
+      "year": 2025,
+      "additionalInfo": { "sl": "Besedilo vzporedno v angl. in it. Avtorji navedeni v kolofonu. 100 izv. Katalog razstave.", "en": "Text in parallel English and Italian. Authors listed in the colophon. 100 copies. Exhibition catalogue." },
+      "thumbnail": "/images/broken-promises.jpeg",
+      "pages": "36",
+      "languageFrom": { "sl": "angleščina, italijanščina", "en": "English, Italian" },
+      "languageTo": { "sl": "angleščina, italijanščina", "en": "English, Italian" },
+      "publisherLink": { "sl": "", "en": "" }
+    },
+    {
+      "id": "pub3",
+      "type": "publication",
+      "title": { "sl": "Zavzemanje prostora: Nove izvedbene umetniške prakse v Jugoslaviji", "en": "Claiming of Space: New Performative Art Practices in Yugoslavia" },
+      "author": { "sl": "Jasmina Založnik", "en": "Jasmina Založnik" },
+      "publisher": { "sl": "Maska", "en": "Maska" },
+      "year": 2024,
+      "isbn": "978-961-6572-72-9",
+      "additionalInfo": { "sl": "Prevod v slovenščino iz angleškega izvirnika.", "en": "Translation into Slovenian from the English original." },
+      "thumbnail": "/images/Zavzemanje prostora.png",
+      "pages": "257",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://maska.si/knjige/jasmina-zaloznik-zavzemanje-prostora/", "en": "https://maska.si/en/books/jasmina-zaloznik-taking-up-space/" }
+    },
+    {
+      "id": "pub4",
+      "type": "publication",
+      "title": { "sl": "Življenje umetnosti: prečne črte skrbi", "en": "The Life of Art: Transversal Lines of Care" },
+      "author": { "sl": "Bojana Kunst (avtor)", "en": "Bojana Kunst (author)" },
+      "additionalInfo": { "sl": "Prevod knjige Življenje umetnosti: prečne črte skrbi v angleščino. V pripravi na izdajo.", "en": "Translation of the book *Življenje umetnosti: prečne črte skrbi* into English. Forthcoming." },
+      "thumbnail": "/images/bojana-kunst-zivljenje-umetnosti_maska_2021.png",
+      "pages": "256",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://maska.si/knjige/bojana-kunst-the-life-of-art-transversal-lines-of-care-v-pripravi/", "en": "https://maska.si/en/books/bojana-kunst-the-life-of-art-transversal-lines-of-care-forthcoming/" }
+    },
+    {
+      "id": "pub5",
+      "type": "publication",
+      "title": { "sl": "Odlivanje smrti: Posmrtne maske v slovenskih javnih zbirkah", "en": "Casting Death: Post-mortem Masks in Slovenian Public Collections" },
+      "author": { "sl": "Alenka Pirman (urednik)", "en": "Alenka Pirman (editor)" },
+      "publisher": { "sl": "Inštitut za novejšo zgodovino", "en": "Institute of Contemporary History" },
+      "year": 2023,
+      "additionalInfo": { "sl": "Prevod prispevkov v slovenščino. Brezplačna eknjiga", "en": "Translation of contributions into Slovenian. Free e-book." },
+      "thumbnail": "/images/odlivanje-smrti.jpeg",
+      "pages": "1 spletni vir",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://sistory.github.io/Odlivanje_smrti/", "en": "https://sistory.github.io/Odlivanje_smrti/" }
+    },
+    {
+      "id": "pub5a",
+      "type": "publication",
+      "title": { "sl": "Tao G. Vrhovec Sambolec: Brati branje", "en": "Tao G. Vrhovec Sambolec: Reading Reading" },
+      "author": { "sl": "Tao G. Vrhovec Sambolec (umetnik, intervjuvanec), Mara Anjoli Vujić (urednik, intervjuvanec)", "en": "Tao G. Vrhovec Sambolec (artist, interviewee), Mara Anjoli Vujić (editor, interviewer)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2023,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino", "en": "Exhibition catalogue, co-translator into English." },
+      "thumbnail": "/images/Brati Branje.jpeg",
+      "pages": "117",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/1075/tao-g-vrhovec-sambolec-brati-branje/", "en": "https://mgml.si/en/shop/product/1075/tao-g-vrhovec-sambolec-reading-reading/" }
+    },
+    {
+      "id": "pub6",
+      "type": "publication",
+      "title": { "en": "Within Time, Beyond Time: a journey through CoFestival, International Festival of Contemporary Dance" },
+      "author": { "sl": "Dragana Alfirević, Nika Arhar (urednik, avtor uvoda, etc.)", "en": "Dragana Alfirević, Nika Arhar (editor, author of introduction, etc.)" },
+      "publisher": { "sl": "Nomad Dance Academy Slovenija", "en": "Nomad Dance Academy Slovenia" },
+      "year": 2022,
+      "additionalInfo": { "sl": "Zbornik ob deseti obletnici, prevod v angleščino.", "en": "A reader on the tenth anniversary, translation into English" },
+      "thumbnail": "/images/V času, onkraj časa EN.jpeg",
+      "pages": "287",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://ndaslovenia.org/v-casu-onkraj-casa/", "en": "https://ndaslovenia.org/within-time-beyond-time/" }
+    },
+    {
+      "id": "pub7",
+      "type": "publication",
+      "title": { "sl": "V času, onkraj časa", "en": "Within Time, Beyond Time" },
+      "author": { "sl": "Nika Arhar (urednik)", "en": "Nika Arhar (editor)" },
+      "publisher": { "sl": "Nomad Dance Academy Slovenija", "en": "Nomad Dance Academy Slovenia" },
+      "year": 2022,
+      "additionalInfo": { "sl": "Zbornik ob deseti obletnici, prevod v slovenščino", "en": "A reader on the tenth anniversary, translation into Slovenian." },
+      "thumbnail": "/images/V času, onkraj časa.jpeg",
+      "pages": "287",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://ndaslovenia.org/v-casu-onkraj-casa/", "en": "https://ndaslovenia.org/within-time-beyond-time/" }
+    },
+    {
+      "id": "pub8",
+      "type": "publication",
+      "title": { "sl": "Vračanje pogleda", "en": "Returning the Gaze" },
+      "author": { "sl": "Nika Autor (umetnik), Mojca Zlokarnik (umetnik), Polonca Lovšin (umetnik), Alenka Trebušak (urednik, avtor uvoda, etc., razstavljalec), Mateja Podlesnik (urednik, avtor uvoda, etc., razstavljalec)", "en": "Nika Autor (artist), Mojca Zlokarnik (artist), Polonca Lovšin (artist), Alenka Trebušak (editor, author of introduction, etc., exhibitor), Mateja Podlesnik (editor, author of introduction, etc., exhibitor)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v slovenščino", "en": "Exhibition catalogue, co-translator into Slovenian." },
+      "thumbnail": "/images/Vračanje pogleda.jpeg",
+      "pages": "345",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/933/vracanje-pogleda/", "en": "https://mgml.si/en/shop/product/933/returning-the-gaze/" }
+    },
+    {
+      "id": "pub9",
+      "type": "publication",
+      "title": { "sl": "Vračanje pogleda", "en": "Returning the Gaze" },
+      "author": { "sl": "Alenka Gregorič (urednik)", "en": "Alenka Gregorič (editor)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino.", "en": "Exhibition catalogue, co-translator into English" },
+      "thumbnail": "/images/Vračanje pogleda.jpeg",
+      "pages": "345",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/933/vracanje-pogleda/", "en": "https://mgml.si/en/shop/product/933/returning-the-gaze/" }
+    },
+    {
+      "id": "pub10",
+      "type": "publication",
+      "title": { "sl": "Maruša Sagadin: Mokre noge", "en": "Maruša Sagadin: Wet Feet" },
+      "author": { "sl": "Alenka Gregorič (urednik)", "en": "Alenka Gregorič (editor)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, prevod v angleščino", "en": "Exhibition catalogue, translation into English." },
+      "thumbnail": "/images/mokre noge.jpeg",
+      "pages": "99",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/932/marusa-sagadin-mokre-noge/", "en": "https://mgml.si/en/shop/product/932/marusa-sagadin-wet-feet/" }
+    },
+    {
+      "id": "pub11",
+      "type": "publication",
+      "title": { "sl": "Meta Grgurević, Praskanje za zlatom", "en": "Meta Grgurević, Scraping for Gold" },
+      "author": { "sl": "Meta Grgurevič (umetnik, intervjuvanec), Alenka Trebušak (urednik, intervjuvanec)", "en": "Meta Grgurevič (artist, interviewee), Alenka Trebušak (editor, interviewer)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2022,
+      "additionalInfo": { "sl": "Katalog razstave, prevod v angleščino", "en": "Exhibition catalogue, co-translator into English." },
+      "thumbnail": "/images/Praskanje za zlatom.jpeg",
+      "pages": "99",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/931/meta-grgurevic-praskanje-za-zlatom/", "en": "https://mgml.si/en/shop/product/931/meta-grgurevic-scraping-for-gold/" }
+    },
+    {
+      "id": "pub12",
+      "type": "publication",
+      "title": { "sl": "Čudovitost spomina", "en": "The Wonderfulness of Memory" },
+      "author": { "sl": "Rosa Barba (umetnik), Vadim Fiškin (umetnik), Marjetica Potrč (umetnik, avtor uvoda, etc.), Tobias Putrih (umetnik), Miha Štrukelj (umetnik), Aleksandra Vajd (umetnik, prevajalec), Alenka Gregorič (avtor uvoda, etc., urednik, razstavljalec), Alenka Trebušak (urednik)", "en": "Rosa Barba (artist), Vadim Fiškin (artist), Marjetica Potrč (artist, author of introduction, etc.), Tobias Putrih (artist), Miha Štrukelj (artist), Aleksandra Vajd (artist, translator), Alenka Gregorič (author of introduction, etc., editor, exhibitor), Alenka Trebušak (editor)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2021,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino", "en": "Exhibition catalogue, co-translator into English." },
+      "thumbnail": "/images/čudovitost.jpeg",
+      "pages": "225",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/821/cudovitost-spomina/", "en": "https://mgml.si/en/shop/product/821/the-wonderfulness-of-memory/" }
+    },
+    {
+      "id": "pub13",
+      "type": "publication",
+      "title": { "sl": "Ko gesta postane dogodek", "en": "When Gesture Becomes Event" },
+      "author": { "sl": "Anna Artaker (umetnik), Nika Autor (umetnik), Lana Čmajčanin (umetnik), Polonca Lovšin (umetnik), Dorit Margreiter (umetnik), Ursula Mayer (umetnik), Marjetica Potrč (umetnik), Maruša Sagadin (umetnik), Elisabeth von Samsonow (umetnik), Maja Smrekar (umetnik), Alenka Gregorič (avtor uvoda, etc., urednik), Felicitas Thun-Hohenstein (avtor uvoda, etc., urednik)", "en": "Anna Artaker (artist), Nika Autor (artist), Lana Čmajčanin (artist), Polonca Lovšin (artist), Dorit Margreiter (artist), Ursula Mayer (artist), Marjetica Potrč (artist), Maruša Sagadin (artist), Elisabeth von Samsonow (artist), Maja Smrekar (artist), Alenka Gregorič (author of introduction, etc., editor), Felicitas Thun-Hohenstein (author of introduction, etc., editor)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Mestna galerija", "en": "Museum and Galleries of Ljubljana, City Art Gallery" },
+      "year": 2021,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino in slovenščino", "en": "Exhibition catalogue, co-translator into English and Slovenian." },
+      "thumbnail": "/images/gesta.png",
+      "pages": "219",
+      "languageFrom": { "sl": "angleščina, slovenščina", "en": "English, Slovenian" },
+      "languageTo": { "sl": "slovenščina, angleščina", "en": "Slovenian, English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/723/ko-gesta-postane-dogodek/", "en": "https://mgml.si/en/shop/product/723/when-gesture-becomes-event/" }
+    },
+    {
+      "id": "pub14",
+      "type": "publication",
+      "title": { "sl": "Živi objekt", "en": "Living Object" },
+      "author": { "sl": "Špela Petrič (umetnik), Maja Smrekar (umetnik), Saša Spačal (umetnik, fotograf), Robertina Šebjanič (umetnik, fotograf), Polona Tratnik (umetnik, fotograf), Alenka Trebušak (urednik, avtor uvoda, etc., razstavljalec)", "en": "Špela Petrič (artist), Maja Smrekar (artist), Saša Spačal (artist, photographer), Robertina Šebjanič (artist, photographer), Polona Tratnik (artist, photographer), Alenka Trebušak (editor, author of introduction, etc., exhibitor)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Mestna galerija", "en": "Museum and Galleries of Ljubljana, City Art Gallery" },
+      "year": 2020,
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino", "en": "Exhibition catalogue, co-translator into English." },
+      "thumbnail": "/images/Živi-objekt.jpeg",
+      "pages": "147",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/624/zivi-objekt/", "en": "https://mgml.si/en/shop/product/624/living-object/" }
+    },
+    {
+      "id": "pub15",
+      "type": "publication",
+      "title": { "sl": "Zbornik prispevkov", "en": "Proceedings" },
+      "author": { "sl": "Gregor Dražil (avtor, urednik), Marjeta Ciglenečki, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa", "en": "Gregor Dražil (author, editor), Marjeta Ciglenečki, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa" },
+      "publisher": { "sl": "Mednarodni grafični likovni center", "en": "International Centre of Graphic Arts" },
+      "year": 2019,
+      "additionalInfo": { "sl": "Avtorji: Marjeta Ciglenečki, Gregor Dražil, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa. Prevod v slovenščino: Urban Belina, Aleksandra Jovanovski. Prevod v angleščino: Katja Kosi, Jana Renee Wilcoxen.", "en": "Authors: Marjeta Ciglenečki, Gregor Dražil, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa. Translation into Slovenian: Urban Belina, Aleksandra Jovanovski. Translation into English: Katja Kosi, Jana Renee Wilcoxen." },
+      "thumbnail": "/images/Simpozij-ob-razstavi-Japonska-Jugoslavija-grafični-bienale.jpeg",
+      "pages": "133",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.mglc.si/si/trgovina/57/zbornik-prispevkov-s-simpozija-ob-razstavi-japonska-jugoslavija-graficni-bienale-dokumenti-sodelovanja/", "en": "https://www.mglc.si/en/shop/57/proceedings-from-the-symposium-accompanying-the-exhibition-japan-yugoslavia-the-biennale-of-graphic-arts-documents-of-cooperation/" }
+    },
+    {
+      "id": "pub16",
+      "type": "publication",
+      "title": { "sl": "Cesta sestradanih", "en": "The Famished Road" },
+      "author": { "sl": "Ben Okri", "en": "Ben Okri" },
+      "publisher": { "sl": "Kulturno-umetniško društvo Police Dubove", "en": "KUD Police Dubove" },
+      "year": 2016,
+      "additionalInfo": { "sl": "Ključni pojmi: postkolonialna literatura, afriška sodobna literatura, britanska sodobna literatura, duhovi, predniki, reinkarnacija, magija, revščina, državljanska vojna, pričevanje otroka", "en": "Key topics: postcolonial literature, contemporary African literature, contemporary British literature, spirits, ancestors, reincarnation, magic, poverty, civil war, child's testimony" },
+      "thumbnail": "/images/cesta-sestradanih.jpg",
+      "pages": "551",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://policadubova.org/knjigarna/cesta-sestradanih/", "en": "https://policadubova.org/knjigarna/cesta-sestradanih/" }
+    },
+    {
+      "id": "pub17",
+      "type": "publication",
+      "title": { "sl": "Misleče telo", "en": "The Thinking Body" },
+      "author": { "sl": "Mabel E. Todd", "en": "Mabel E. Todd" },
+      "publisher": { "sl": "Emanat", "en": "Emanat" },
+      "year": 2014,
+      "additionalInfo": { "sl": "Ponatis: Emanat, 2018. Ključni pojmi: anatomija človeka, kineziologija, somatologija, psihosomatika, strokovna literatura za plesalce, igralce in ostale telesno dejavne profile; študija sil, ki delujejo na človeško telo med premikanjem; integralni sistem vaj z vizualizacijo anatomskih struktur za odpravo napetosti iz telesa", "en": "Reprint: Emanat, 2018. Key topics: human anatomy, kinesiology, somatology, psychosomatics, professional literature for dancers, actors and other physically active professions; study of forces acting on the human body during movement; integral system of exercises with visualization of anatomical structures for releasing tension from the body" },
+      "thumbnail": "/images/mislece.jpg",
+      "pages": "287",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://emanat.si/si/produkcija/mabel-elsworth-todd--mislece-telo/", "en": "https://emanat.si/en/production/mabel-elsworth-todd--the-thinking-body/" }
+    },
+    {
+      "id": "pub18",
+      "type": "publication",
+      "title": { "sl": "Moja Hirošima", "en": "My Hiroshima" },
+      "author": { "sl": "Junko Morimoto", "en": "Junko Morimoto" },
+      "publisher": { "sl": "KUD AAC Zrakogled; Ljubljana: Univerza", "en": "KUD AAC Zrakogled; Ljubljana: Univerza" },
+      "year": 2014,
+      "additionalInfo": { "sl": "Ključni pojmi: protivojna avtorska slikanica, japonska sodobna literatura, Hirošima, bombardiranje, atomska bomba, izkušnja preživele s perspektive otroka", "en": "Key topics: anti-war author's picture book, contemporary Japanese literature, Hiroshima, bombing, atomic bomb, survivor's experience from a child's perspective" },
+      "thumbnail": "/images/moja-hirosima.jpg",
+      "pages": "37",
+      "languageFrom": { "sl": "japonščina", "en": "Japanese" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.zrakogled.org/moja-hirosima/", "en": "https://www.zrakogled.org/my-hiroshima/" }
+    },
+    {
+      "id": "pub19",
+      "type": "publication",
+      "title": { "sl": "Dantejev trg", "en": "Dante's Square" },
+      "author": { "sl": "Dragan Velikić", "en": "Dragan Velikić" },
+      "publisher": { "sl": "KUD AAC Zrakogled", "en": "KUD AAC Zrakogled" },
+      "year": 2013,
+      "additionalInfo": { "sl": "Ključni pojmi: srbska sodobna literatura, fragmentarnost spomina, samorefleksija, otroštvo, Pulj, prepletenost osebnih zgodovin in usod v primežu družbenih sprememb", "en": "Key topics: contemporary Serbian literature, fragmented memory, self-reflection, childhood, Pula, interconnection of personal stories and fates within social changes" },
+      "thumbnail": "/images/dantejev.jpg",
+      "pages": "313",
+      "languageFrom": { "sl": "srbščina", "en": "Serbian" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.zrakogled.org/dantejev-trg/", "en": "https://www.zrakogled.org/dantejev-trg/" }
+    },
+    {
+      "id": "pub20",
+      "type": "publication",
+      "title": { "sl": "Skok malteških delfinov", "en": "Leap of Malta Dolphins" },
+      "author": { "sl": "Francis Ebejer", "en": "Francis Ebejer" },
+      "publisher": { "sl": "Društvo 2000; Koper: KUD AAC Zrakogled", "en": "Društvo 2000; Koper: KUD AAC Zrakogled" },
+      "year": 2011,
+      "additionalInfo": { "sl": "Ključni pojmi: postkolonialna literatura, malteška sodobna literatura, ekologija, tradicija, otoška identiteta, upor proti degradaciji in izkoriščanju", "en": "Key topics: postcolonial literature, contemporary Maltese literature, ecology, tradition, island identity, resistance to degradation and exploitation" },
+      "thumbnail": "/images/skok.jpg",
+      "pages": "267",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.zrakogled.org/skok-malteskih-delfinov/", "en": "https://www.zrakogled.org/skok-malteskih-delfinov/" }
+    },
+    {
+      "id": "pub21",
+      "type": "publication",
+      "title": { "sl": "Gejevski Dekameron", "en": "The Gay Decameron" },
+      "author": { "sl": "Christopher Whyte (avtor)", "en": "Christopher Whyte (author)" },
+      "publisher": { "sl": "Škuc", "en": "Škuc" },
+      "year": 2011,
+      "additionalInfo": { "sl": "Ključni pojmi: kvir literatura, sodobna škotska literatura, gejevska literatura, virus HIV, epidemija AIDS-a v 80. letih 20. stol., razkritje spolne identitete, življenje LGBT skupnosti.", "en": "Key topics: queer literature, contemporary Scottish literature, gay literature, HIV virus, AIDS epidemic in the 1980s, revelation of sexual identity, LGBT community life." },
+      "thumbnail": "/images/gejevski.jpg",
+      "pages": "348",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.skuc.org/lambda/christopher-whyte-gejevski-dekameron/", "en": "https://www.skuc.org/lambda/christopher-whyte-gejevski-dekameron/" }
+    },
+    {
+      "id": "pub23",
+      "type": "publication",
+      "title": { "sl": "Za živ(al)ce v realnem času", "en": "For the Nerves in Real Time" },
+      "author": { "sl": "Tina Dolinšek, Ida Hiršenfelder (avtor, urednik), Tea Hvala (avtor, urednik), Alenka Pirman (avtor, urednik), Urban Belina", "en": "Tina Dolinšek, Ida Hiršenfelder (author, editor), Tea Hvala (author, editor), Alenka Pirman (author, editor), Urban Belina" },
+      "publisher": { "sl": "Društvo Ljudmila, laboratorij za znanost in umetnost", "en": "Ljudmila, Art and Science Laboratory" },
+      "year": 2012,
+      "isbn": "978-961-93298-0-1",
+      "additionalInfo": { "sl": "Galerija Škuc, 3.-19. 4. 2012", "en": "Škuc Gallery, 3.-19. 4. 2012" },
+      "thumbnail": "/images/Real_Time_Settings_for_Ner(d_ve)s_cover.jpg",
+      "pages": "46",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://wiki.ljudmila.org/Real_Time_Settings_for_Ner(d/ve)s", "en": "https://wiki.ljudmila.org/Real_Time_Settings_for_Ner(d/ve)s" }
+    },
+    {
+      "id": "pub24",
+      "type": "publication",
+      "title": { "sl": "Redeye: a New York - Ljubljana translation think tank", "en": "Redeye: a New York - Ljubljana translation think tank" },
+      "author": { "sl": "Urban Belina (urednik, prevajalec)", "en": "Urban Belina (editor, translator)" },
+      "publisher": { "sl": "Javni sklad Republike Slovenije za kulturne dejavnosti", "en": "Republic of Slovenia Public Fund for Cultural Activities" },
+      "year": 2006,
+      "isbn": "978-961-6141-40-6",
+      "additionalInfo": { "sl": "Mentor, Posebna izdaja", "en": "Mentor, Special edition" },
+      "thumbnail": "/images/redeye.jpg",
+      "pages": "151",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://www.jskd.si/literatura/zalozba_jssk/mentor/posebna_izdaja_redeye_2006.htm", "en": "https://www.jskd.si/literatura/zalozba_jssk/mentor/posebna_izdaja_redeye_2006.htm" }
+    },
+    {
+      "id": "pub27",
+      "type": "publication",
+      "title": { "sl": "Krmiljenje čopiča", "en": "Steering the brush" },
+      "author": { "sl": "Dominik Mahnič (umetnik), Maja Čehovin (urednik), Julija Hoda (urednik), Jani Pirnat (urednik, avtor uvoda, etc.)", "en": "Dominik Mahnič (artist), Maja Čehovin (editor), Julija Hoda (editor), Jani Pirnat (editor, author of introduction, etc.)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Galerija Vžigalica", "en": "Museum and Galleries of Ljubljana, Match Gallery" },
+      "year": 2024,
+      "isbn": "978-961-96582-0-8",
+      "additionalInfo": { "sl": "Katalog razstave", "en": "Exhibition catalogue" },
+      "thumbnail": "/images/krmiljenje.jpg",
+      "pages": "101",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/galerija-vzigalica/dogodki/501/predstavitev-kataloga-krmiljenje-copica/", "en": "https://mgml.si/en/match-gallery/events/501/presentation-of-the-catalogue-steering-the-brush/" }
+    },
+    {
+      "id": "pub28",
+      "type": "publication",
+      "title": { "sl": "Stoječe valovanje", "en": "Standing waves" },
+      "author": { "sl": "Tarek Atoui (umetnik, intervjuvanec), Mara Anjoli Vujić (urednik, intervjuvanec)", "en": "Tarek Atoui (artist, interviewee), Mara Anjoli Vujić (editor, interviewer)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2024,
+      "isbn": "978-961-96663-4-0",
+      "additionalInfo": { "sl": "Katalog razstave", "en": "Exhibition catalogue" },
+      "thumbnail": "/images/sw.jpg",
+      "pages": "108",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/1155/tarek-atoui-stojece-valovanje/", "en": "https://mgml.si/en/shop/product/1155/tarek-atoui-standing-waves/" }
+    },
+    {
+      "id": "pub31",
+      "type": "publication",
+      "title": { "sl": "Zapiski z razstave", "en": "Exhibition notes" },
+      "author": { "sl": "Rosa Barba (umetnik, intervjuvanec)", "en": "Rosa Barba (artist, interviewee)" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
+      "year": 2022,
+      "isbn": "978-961-95494-6-9",
+      "additionalInfo": { "sl": "Katalog razstave", "en": "Exhibition catalogue" },
+      "thumbnail": "/images/zapiski z razstave.jpeg",
+      "pages": "122",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/872/rosa-barba-zapiski-z-razstave/", "en": "https://mgml.si/en/shop/product/872/rosa-barba-exhibition-notes/" }
+    },
+    {
+      "id": "pub32",
+      "type": "publication",
+      "title": { "sl": "Na platnu : Muzej in galerije mesta Ljubljane, Mestna galerija Ljubljana = On canvas : Museum and Galleries of Ljubljana, City Art Gallery Ljubljana", "en": "On canvas : Museum and Galleries of Ljubljana, City Art Gallery Ljubljana" },
+      "author": { "sl": "Arjan Pregl", "en": "Arjan Pregl" },
+      "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Mestna galerija, Institut Jožef Stefan; Zavod za turizem, Galerija mesta, Ptuj", "en": "Museum and Galleries of Ljubljana, City Art Gallery, Jožef Stefan Institute; Tourism Board, Gallery of the City, Ptuj" },
+      "year": 2021,
+      "isbn": "978-961-6969-42-0",
+      "additionalInfo": { "sl": "Slov. besedilo in prevod v angl. Katalog razstave.", "en": "Slovenian text with English translation. Exhibition catalogue." },
+      "thumbnail": "/images/na_platnu.jpeg",
+      "pages": "161",
+      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
+      "languageTo": { "sl": "angleščina", "en": "English" },
+      "publisherLink": { "sl": "", "en": "" }
+    }
+      ],
+  "projects": [
+    {
+      "id": "proj-krpanje-nevidnega",
+      "type": "performance",
+      "title": {
+        "sl": "Krpanje nevidnega",
+        "en": "Mending the Invisible"
+      },
+      "year": "2024",
+      "venue": {
+        "sl": "Mladi levi Festival, Ljubljana",
+        "en": "Mladi levi Festival, Ljubljana"
+      },
+      "description": {
+        "sl": "Krpanje nevidnega predlaga performativno, participatorno in poetično prakso kolektivnih akcij »krpanja«, s katerimi na različne načine »popravljamo« življenjska okolja sodelujočih v projektu.\n\nKrpanja so po svojem značaju lahko zgodovinska, politična, ekološka, etična ali simbolna. Lahko se navdihujejo pri praksah poezije, družbenega aktivizma, performansa, urbanizma, antropologije, arhitekture itd. Krpanje nevidnega namreč ne želi poučevati o konceptih skrbi in celjenja, temveč jih odkriva in deli v imaginativnih, poetičnih, kolektivnih in metaforičnih akcijah.\n\nKrpanje nevidnega vključuje performativne akcije v javnem prostoru, delavnice z različnimi lokalnimi skupnostmi in združenji, nastanek velikega izvezenega novega zemljevida »popravljenega« mesta in zaključni niz predstav, ki pripoveduje o akcijah in predstavi novi zemljevid mesta.\n\nDandanes večino popravil zaupamo strokovnjakom (urbanistom, vzdrževalcem, arhitektom, inženirjem, zdravstvenim delavcem in tehnikom, odvetnikom in politikom), ob tem pa velikokrat prezremo in pozabimo, da je popravilo nekaj, kar je še vedno tudi del procesa grajenja skupnosti. Ne le kot del vsakodnevnih odnosov v skupnosti, temveč tudi kot del zamišljanja njenega prihodnjega življenja.\n\nTovrstna popravila resda ne morejo zaceliti ran naših svetov, morda pa lahko spremenijo naš individualni in kolektivni pogled na izkušnjo skupnega in nas napotijo k skrbi in podpori. S takšno prakso torej predlagamo izvedbeno zasnovo, v kateri povežemo različne ljudi, da bi delili raznovrstna zamišljanja skupnostnih popravil/krpanj, s katerimi lahko nadaljujemo še naprej, v neznano prihodnost.",
+        "en": "This work proposes a performative, participatory and poetic practice of collective actions of mending, during which we ‘repair’ the living environments of the participants in different ways.\n\nThese mendings can be historical, political, ecological, ethical, or symbolic in nature. They can draw on the practices of poetry, social activism, performance art, urban planning, anthropology, architecture, etc. The idea here is not to ‘teach’ the concepts and ideas of ‘repair’ (terms that are much used and problematized these days) but rather to invent and share imaginative, poetic, collective, metaphorical actions of healing and caring.\n\nMending the Invisible includes performative actions in public spaces, workshops with different local groups and associations, embroidering of a large scale “new” map of the repaired city, and a performance which narrates the actions and presents the map.\n\nNowadays we have mostly entrusted repair to experts and professionals (urban planners, maintenance workers, architects, infrastructure specialists, health professionals and technicians, lawyers and politicians), often overlooking and forgetting that repair is also something that is still in the process of building communities, not only part of everyday community relations, but also part of a community’s imagination of its future life.\n\nSuch repair cannot heal the wounds of our worlds but can maybe alter our individual and collective point of view on the experience of the common, orienting us more towards the lines of care and support. In this practice, we are therefore proposing a performative setting in which we will bring different people together to share various imaginations on collective mending / repair and which can continue for a longer period into unknown future."
+      },
+      "additionalInfo": {
+        "sl": "Intervencije v javnem prostoru: ponedeljek, 26. avgust 2024 (Park Tabor, Trubarjeva 19, Stari trg, Kongresni trg, NUK II parkirišče), torek, 27. avgust 2024 (Gruberjeva brv, Penzion Pod Lipo). Predstave v dvorani ŠD Tabor: četrtek, 29. avgust 2024, ob 19.00; petek, 30. avgust 2024, ob 17.00; sobota, 31. avgust 2024, ob 16.00.",
+        "en": "Interventions in public space: Monday, 26 August 2024 (Park Tabor, Trubarjeva 19, Stari trg, Kongresni trg, NUK II parking lot), Tuesday, 27 August 2024 (Gruberjeva brv, Penzion Pod Lipo). Performances in ŠD Tabor hall: Thursday, 29 August 2024, at 7.00 p.m.; Friday, 30 August 2024, at 5.00 p.m.; Saturday, 31 August 2024, at 4.00 p.m."
+      },
+      "credits": [
+        {
+          "role": { "sl": "Zasnova in izvedba", "en": "Concept and realization" },
+          "name": "Ivana Müller in Bojana Kunst"
+        },
+        {
+          "role": { "sl": "V sodelovanju z", "en": "In collaboration with" },
+          "name": "Ana Čigon, Ajda Bračič, Urban Belina, Klara Drnovšek Solina"
+        },
+        {
+          "role": { "sl": "Vezilje_ci novega zemljevida", "en": "Embroiderers of the new map" },
+          "name": "Ayşe Baloğlu, Birsen Arslan, Urban Belina, Albin Bobnar, Oskar Cergolj, Jaka Grm, Meryem Işık, Petra Korent, Nino Kovač, Filip Kračman, Žiga Martinjak, Jelena Radić, Selma Yazıcı"
+        },
+        {
+          "role": { "sl": "Pripovedovalke_ci zgodb iz Ljubljane", "en": "Storytellers from Ljubljana" },
+          "name": "Nada Bohinc, Štefka Burger, Milan Dugandžija, Marija Đorđević, Viktor Erjavec, Marija Golob Hvala, Ana Grmek, Marija (Mija) Jezeršek, Cvetka Konjar, Miloš Kosec, Miroslav Meden, Nevenka Miško, No-Border Craft, Gaja Osole, Bojana Piškur, PLAC, Mimi Pučko, Emilija Razpotik, Danica Sretenović, Stanislava Stanić, Neja Tomšič, Tadeja Verdnik, Rok Vevar, Brigita Vtič, Ružica Vučković"
+        },
+        {
+          "role": { "sl": "Produkcija", "en": "Production" },
+          "name": "Bunker, Ljubljana, Maska"
+        },
+        {
+          "role": { "sl": "Producentka", "en": "Producer" },
+          "name": "Klara Drnovšek Solina"
+        },
+        {
+          "role": { "sl": "Koprodukcija", "en": "Co-production" },
+          "name": "ORLA, Le Pacifique Grenoble"
+        },
+        {
+          "role": { "sl": "S podporo", "en": "Supported by" },
+          "name": "Ministrstvo za kulturo RS, Mestna občina Ljubljana"
+        },
+        {
+          "role": { "sl": "Zahvala", "en": "Thanks to" },
+          "name": "Dom upokojencev Center – enota Tabor, NoBorderCraft, Slovenska filantropija, Anica Albreht"
+        },
+        {
+          "role": { "sl": "Foto", "en": "Photo" },
+          "name": "Nada Žgank, Ana Čigon"
+        }
+      ],
+      "thumbnail": "/images/krpanje.jpg"
+    },
+    {
+      "id": "proj-predstava-mesta",
+      "type": "exhibition",
+      "title": {
+        "sl": "Predstava mesta",
+        "en": "Picture (a) City"
+      },
+      "year": "2025",
+      "venue": {
+        "sl": "MSUM",
+        "en": "Museum of Contemporary Art Metelkova"
+      },
+      "description": {
+        "sl": "Razstava Predstava mesta na ogled postavlja umetniška dela, ki odslikavajo in kritično premišljujejo različna obdobja iz življenja mesta Ljubljana.",
+        "en": "The exhibition Picture (a) City displays works of art that depict and critically reflect on various periods in the life of the city of Ljubljana."
+      },
+      "credits": [
+        {
+          "role": { "sl": "Kustos", "en": "Exhibition curator" },
+          "name": "Igor Španjol"
+        },
+        {
+          "role": { "sl": "Umetniki in umetnice", "en": "Artists" },
+          "name": "Igor Andjelić, Arhitektov bilten; Jože Barši & Martina Bastarda, Mateja Ocepek, Nataša Skušek; Eva Bevec, Biancoshock, Fabian Brunsing, Klara Debeljak, DNLM, Leon Dolinšek, Kostja Gatnik, IRWIN, Lado Jakša, Zmago Jeraj, Staš Kleindienst, Kolektiv Prihodnost 14b, Neven Korda, France Kralj, Kolektiv Krater (Gaja Mežnarić Osole, Amadeja Smrekar, Danica Sretenović), KUD Obrat (Stefan Doepner, Urška Jurman, Polonca Lovšin, Apolonija Šušteršič), Kvadratni meter (Teja Miholič, Urša Rahne, Anne Elisabeth Tassel), Gašper Lešnik, Miha Maleš, Metod, Rastko Močnik, Amir Muratović, Ivana Müller & Bojana Kunst v sodelovanju z Ano Čigon, Ajdo Bračič, Urbanom Belina, Klaro Drnovšek Solina; Najlepše mesto na svetu, David Nez (OHO), Nonument Group, Nikolaj Omersa, Tadej Pogačar & P.A.R.A.S.I.T.E. muzej sodobne umetnosti, Marko Pogačnik, Marjetica Potrč, Marij Pregelj, Matjaž Rušt, Jakob Savinšek, Željko Stevanić, Iva Suhadolnik Gregorin; Inštitut Egon March (Urška Kristina Škerl, Domen Kosmač, Marko Košnik); Nika Špan, Miha Štrukelj, Vladimir Turner, Sašo Vrabič, Peter Žargi, The Wa"
+        }
+      ],
+      "thumbnail": "/images/predstava-mesta.jpg"
+    },
+    {
+      "id": "proj1",
+      "type": "exhibition",
+      "title": { "sl": "Vedno na voljo", "en": "For Your Pleasure" },
+      "year": "2023",
+      "venue": {
+        "sl": "Moderna galerija, MG+",
+        "en": "Museum of Modern Art, MG+"
+      },
+      "description": {
+        "sl": "Razstava se posveča umetniški produkciji, ki obravnava družbeni spol in iz njega izhajajoče diskriminacije, seksizem in neenakost za ženske (in vse, ki se kot ženske identificirajo), pri čemer se diskriminacija manifestira na presečišču spola in drugih kategorij in okoliščin, npr. razreda, dela, rase, nacionalnosti, spolne identitete in starosti.\n\nFeministične pozicije v vizualni umetnosti iz Slovenije (torej tukaj delujočih ali s Slovenijo povezanih umetnic/umetnikov) je mogoče razumeti kot tiste, ki izražajo vprašanje spola v temi umetniškega dela, ali kritično, ironično ali subverzivno uporabljajo sloge, tehnike, medije, ali si zamišljajo ali prakticirajo metode umetniškega ustvarjanja in delovanja na način, ki predstavlja odklon od konvencionalne predstave avtonomnega umetniškega dela oziroma avtorstva in njegovega predvidljivega učinka reprodukcije patriarhalno-kapitalističnega reda. Vsem delom s feministično pozicijo je skupna namera, da s svojim imaginativnim in afektivnim potencialom za artikuliranje idej in konceptov poskušajo v vznemirljivih vizualnih, materialnih, prostorskih, performativnih in procesualnih oblikah doseči učinek, ki je transformativen in produktiven za trajno družbenopolitično spremembo.",
+        "en": "The exhibition presents artistic production focusing on gender and gender-related discrimination, on sexism and the inequality of women (and all who identify as women), with discrimination manifesting at the intersections of gender and other categories and circumstances, such as class, labor, race, nationality, sexual identity, and age.\n\nFeminist positions in visual art in and from Slovenia can be understood as those positions that address issues of gender in the theme of the artwork; that use styles, techniques, and media in critical, ironic or subversive ways; or that conceive or practice methods of artistic creation and action in ways that depart from the conventional notion of an autonomous work of art or authorship and its predictable result of reproducing the patriarchal-capitalist order. All artworks based on feminist positions share the aim of bringing about – through their imaginative and affective potential of articulating ideas and concepts in compelling visual, material, spatial, performative, and processual forms – a transformative effect capable of producing permanent sociopolitical change."
+      },
+      "additionalInfo": {
+        "sl": "Odprtje razstave: petek, 27. 10. 2023, ob 20. uri",
+        "en": "Exhibition opening: Friday, 27 October 2023 at 8 p.m."
+      },
+      "credits": [
+        { "role": { "sl": "Kustosinja", "en": "Curator" }, "name": "Martina Vovk" },
+        { "role": { "sl": "Kustos asistent", "en": "Assistant Curator" }, "name": "Kristjan Sedej" },
+        { "role": { "sl": "Umetnice in umetniki", "en": "Artists" }, "name": "Lina Akif, Zemira Alajbegović, Milijana Babić, Mirjana Batinić, Urban Belina, Saša Bezjak, Vanja Bućan, Vesna Bukovec, Jasmina Cibic, Lea Culetto, Ana Čigon, Eclipse, Elena Fajt, Andreja Gomišček, Olja Grubić, Marina Gržinić, Dejan Habicht, Đejmi Hadrović, Ida Hiršenfelder, Maja Hodošček, House on the Hill, Tjaša Kancler, Jasna Klančišar, Andrea Knezović, Tatiana Kocmur, Neven Korda, Mankica Kranjec, Anka Krašna, Rok Kravanja, Meta Krese, Tanja Lažetić, Agate Lielpētere, Aprilija Lužar, Dušan Mandič, Lela B. Njatin, Daniel Petković, Jovita Pristovšek, Tadej Pogačar & P.A.R.A.S.I.T.E. muzej sodobne umetnosti, Urška Preis, Marija Mojca Pungerčar, Maruša Sagadin, Duba Sambolec, Simona Semenič, Mojca Senegačnik, Zvonka T Simčič, Nataša Skušek, Maja Smrekar, Alenka Spacal, Saša Spačal, Zora Stančič, Aina Šmid, Ajda Tomazin, Jasmina Založnik, Lana Zdravković (KITCH), Nada Žgank" }
+      ],
+      "pdfLinks": [
+        { "title": { "sl": "Jubilej", "en": "Jubilee" }, "url": "/images/Jubilej.pdf" },
+        { "title": { "sl": "Jubilee", "en": "Jubilee" }, "url": "/images/Jubilee.pdf" }
+      ],
+      "thumbnail": "/images/Vedno na voljo.jpeg",
+      "media": [
+        { "type": "image", "url": "/images/Vedno na voljo.jpeg" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "type": "performance",
+      "title": { "sl": "Kaj te osreči", "en": "What Makes You Happy?" },
+      "author": { "sl": "Urban Belina in Jasmina Založnik", "en": "Urban Belina and Jasmina Založnik" },
+      "year": "2021",
+      "producer": { "sl": "Tårnby Park Performance Festival 2021, Danska", "en": "Tårnby Park Performance Festival 2021, Denmark" },
+      "thumbnail": "/images/what makes you happy.jpg",
+      "media": [
+        { "type": "image", "url": "/images/what makes you happy.jpg" }
+      ]
+    },
+    {
+      "id": "proj3",
+      "type": ["performance", "postmedia"],
+      "title": { "sl": "EDA: Jubilej", "en": "EDA: Jubilee" },
+      "year": "2021",
+      "producer": { "sl": "Glej in Moment", "en": "Glej and Moment" },
+      "thumbnail": "/images/_MG_7969.jpg",
+      "media": [
+        { "type": "image", "url": "/images/_MG_7969.jpg" },
+        { "type": "video", "url": "https://player.vimeo.com/video/573021697" }
+      ],
+      "credits": [
+        { "role": { "sl": "Koncept, režija, koreografija in scenografija", "en": "Concept, direction, choreography and scenography" }, "name": "En drag ansambel (Urban Belina, Rok Kravanja, Daniel Petković in Ajda Tomazin)" },
+        { "role": { "sl": "Dramaturgija", "en": "Dramaturgy" }, "name": "Urban Belina in Jasmina Založnik" },
+        { "role": { "sl": "Nastopata", "en": "Performers" }, "name": "Rok Kravanja in Daniel Petković" },
+        { "role": { "sl": "Oblikovanje zvoka", "en": "Sound design" }, "name": "Amolab (Evano, The Humble Bee)" },
+        { "role": { "sl": "Tehnično vodenje", "en": "Technical direction" }, "name": "Grega Mohorčič, Brina Ivanetič (Gledališče Glej) in Andrej Firm (Moment)" },
+        { "role": { "sl": "Tehnična podpora", "en": "Technical support" }, "name": "Simon Bezek in Žan Rantaša" },
+        { "role": { "sl": "Fotografija", "en": "Photography" }, "name": "Ajda Tomazin, Ivian Kan Mujezinović in Borut Bučinel" },
+        { "role": { "sl": "Oblikovanje maske za promocijske fotografije", "en": "Makeup design for promotional photos" }, "name": "Tina Prpar" },
+        { "role": { "sl": "Dokumentarni video", "en": "Documentary video" }, "name": "Borut Bučinel" },
+        { "role": { "sl": "Oblikovanje zvoka pri dokumentarnem videu", "en": "Sound design for documentary video" }, "name": "Ajda Tomazin" },
+        { "role": { "sl": "Oblikovanje plakatov in gledališkega lista", "en": "Poster and theatre programme design" }, "name": "Mina Fina in Ivian Kan Mujezinović / Grupa Ee" },
+        { "role": { "sl": "Urednica gledališkega lista", "en": "Theatre programme editor" }, "name": "Tery Žeželj" },
+        { "role": { "sl": "Odnosi z javnostmi", "en": "Public relations" }, "name": "Tjaša Pureber (Gledališče Glej) in Maša Stošič (Moment)" },
+        { "role": { "sl": "Producentki", "en": "Producers" }, "name": "Anja Pirnat (Gledališče Glej) in Nika Bezeljak (Moment)" },
+        { "role": { "sl": "Partnerji", "en": "Partners" }, "name": "Gledališče Glej in Moment v sodelovanju z zavodom Odprti predali" },
+        { "role": { "sl": "Sofinancerji", "en": "Co-financiers" }, "name": "Ministrstvo za kulturo, Mestna občina Ljubljana in Mestna občina Maribor" },
+        { "role": { "sl": "Zahvaljujemo se", "en": "Thanks to" }, "name": "Daji in Radu Kravanja, Lutkovnemu gledališču Ljubljana in Andreji Kovač" }
+      ],
+      "press": [
+        { "text": { "sl": "MMC RTV SLO: Premiera predstave Jubilej: \"Kaj leži onkraj nacije, države, človeštva?\"" }, "url": "https://www.rtvslo.si/kultura/oder/premiera-predstave-jubilej-kaj-lezi-onkraj-nacije-drzave-clovestva/578311" },
+        { "text": { "sl": "STA: V Gleju premiera na temo državljanstva" }, "url": "https://www.sta.si/2889240/v-gleju-premiera-na-temo-drzavljanstva" },
+        { "text": { "sl": "TV Slovenija (Kultura po Odmevih): Premiera predstave Jubilej" }, "url": "https://4d.rtvslo.si/arhiv/kultura/174773845" },
+        { "text": { "sl": "Radio Slovenija: Svet kulture (od 6'08 dalje)" }, "url": "https://ars.rtvslo.si/podkast/svet-kulture/173250930/174773909" },
+        { "text": { "sl": "Dnevnik: Je najbolj radikalni odgovor radikalna nežnost? (kritika)" }, "url": "https://www.dnevnik.si/1042960699/kritika-predstave-jubilej-je-najbolj-radikalni-odgovor-radikalna-neznost" },
+        { "text": { "sl": "Radio Študent: Čigava dežela (kritika)" }, "url": "https://radiostudent.si/kultura/teater-v-eter/%C4%8Digava-de%C5%BEela" },
+        { "text": { "sl": "Neodvisni: Ko spregovori obleka (kritika)" }, "url": "https://neodvisni.art/2021/05/05/ko-spregovori-obleka/" },
+        { "text": { "sl": "Koridor: Jubilej (kritika)" }, "url": "https://koridor-ku.si/oder/kritika/jubilej/" },
+        { "text": { "sl": "Artfiks: Jubilej države, zastave ali državljanke? (kritika)" }, "url": "https://artfiks.si/jubilej-drzave-zastave-ali-drzavljanke/" },
+        { "text": { "sl": "TV Ljubljana: Predstava Jubilej" }, "url": "https://www.youtube.com/watch?v=3-L_p5C-Bw0" },
+        { "text": { "sl": "SiGledal: V Gleju premiera predstave na temo državljanstva" }, "url": "https://veza.sigledal.org/prispevki/v-gleju-premiera-predstave-na-temo-drzavljanstva" },
+        { "text": { "sl": "MMC RTV SLO: Moment Maribor nagrajen za prispevek k mariborski alternativni sceni" }, "url": "https://www.rtvslo.si/kultura/oder/moment-maribor-nagrajen-za-prispevek-k-mariborski-alternativni-sceni/594119" },
+        { "text": { "sl": "SiGledal: Podeljene nagrade ZIZ za alternativne gledališke produkcije" }, "url": "https://veza.sigledal.org/prispevki/podeljene-nagrade-ziz-za-alternativne-gledaliske-produkcije" },
+        { "text": { "sl": "Večer: Kaj leži onkraj nacije, države, človeštva?" }, "url": "https://www.vecer.com/kultura/kaj-lezi-onkraj-nacije-drzave-clovestva-10240498" }
+      ]
+    },
+    {
+      "id": "proj4",
+      "type": "performance",
+      "title": { "sl": "EDA: Državljanki", "en": "EDA: Citizens" },
+      "year": "2020",
+      "producer": { "sl": "Glej in Moment", "en": "Glej and Moment" },
+      "thumbnail": "/images/Državljanki.jpeg",
+      "media": [
+        { "type": "image", "url": "/images/Državljanki.jpeg" }
+      ]
+    },
+    {
+      "id": "proj5",
+      "type": "performance",
+      "title": { "sl": "Sindikat odklonskih entitet 2019", "en": "Syndicate of Outlandish Entites 2019" },
+      "year": "2019",
+      "producer": { "sl": "Emanat", "en": "Emanat" },
+      "websiteLink": { "sl": "https://sindikat.emanat.si/sindikat-2019/", "en": "https://sindikat.emanat.si/en/syndicate-2019/" },
+      "thumbnail": "/images/190413 NOise cirkus 017nzgank.jpg",
+      "media": [
+        { "type": "image", "url": "/images/190413 NOise cirkus 017nzgank.jpg" }
+      ],
+      "credits": [
+        { "role": { "sl": "Programska koordinacija, izvršna produkcija, organizacija in finance", "en": "Programme coordination, executive production, organization, finances and promotion" }, "name": "Sabina Potočki" },
+        { "role": { "sl": "Programska koordinacija, uredništvo spletišča in promocijskih publikacij", "en": "Programme coordination, editing of website and promotional materials, promotion" }, "name": "Urban Belina" },
+        { "role": { "sl": "Festivalska ekipa", "en": "Festival team" }, "name": "Sabina Potočki, Urban Belina, Daniel Petković, Urška Recer, Tina Prpar, Dominika Monte, Michaela Sabolova, Slavko Trivković" },
+        { "role": { "sl": "Pomoč pri promociji", "en": "PR assistant" }, "name": "Daniel Petković" },
+        { "role": { "sl": "Celostna podoba festivala", "en": "Visual identity" }, "name": "Špela Drašlar" },
+        { "role": { "sl": "Foto dokumentacija", "en": "Photography" }, "name": "Nada Žgank, Domen Pal" },
+        { "role": { "sl": "Video dokumentacija", "en": "Video" }, "name": "Hana Vodeb" },
+        { "role": { "sl": "Angleški in slovenski prevod", "en": "English and Slovene translation" }, "name": "Urban Belina" },
+        { "role": { "sl": "Tehnična ekipa", "en": "Tech team" }, "name": "Janko Oven, ekipe Bunker/SMEEL, Mini teatra in Gledališča Glej" },
+        { "role": { "sl": "Produkcija", "en": "Production" }, "name": "Emanat" },
+        { "role": { "sl": "Partnerji – program", "en": "Partners – programme" }, "name": "Moment, Mismo Nismo, Imaginarni, Via Negativa, Anja Bezlova/KD Priden možic, Društvo Mesto žensk; Buelens Paulina vzw (Bruselj, Belgija), Shazia Mirza/MTM Production (London, Velika Britanija)" },
+        { "role": { "sl": "Partnerji – lokacije", "en": "Partners – locations" }, "name": "Zavod Bunker/SMEEL, Klub Gromka, Galerija Alkatraz/KUD Mreža, EX-teater, Mini teater, Gledališče Glej" },
+        { "role": { "sl": "Finančna podpora", "en": "Financial support" }, "name": "Ministrstvo za kulturo RS in Mestna občina Ljubljana" },
+        { "role": { "sl": "Finančna podpora za Marijs Boulogne in Sophio Rodríguez", "en": "Financial support for Marijs Boulogne and Sophia Rodríguez" }, "name": "Flamsko ministrstvo za kulturo" },
+        { "role": { "sl": "Medijska pokrovitelja", "en": "Media sponsors" }, "name": "Mladina in Radio Študent" }
+      ]
+    },
+    {
+      "id": "proj6",
+      "type": "performance",
+      "title": { "sl": "Sindikat odklonskih entitet 2018", "en": "Syndicate of Outlandish Entites 2018" },
+      "year": "2018",
+      "producer": { "sl": "Emanat", "en": "Emanat" },
+      "websiteLink": { "sl": "https://sindikat.emanat.si/sindikat-2018/", "en": "https://sindikat.emanat.si/en/syndicate2018/" },
+      "credits": [
+        { "role": { "sl": "Programska koordinacija, izvršna produkcija, organizacija in finance", "en": "Programme Coordination, Executive Production, Organisation and Finance" }, "name": "Sabina Potočki" },
+        { "role": { "sl": "Programsko svetovanje, uredništvo spletišča in promocijskih publikacij", "en": "Programme Consultant, Editing of Website and Promotional Materials" }, "name": "Urban Belina" },
+        { "role": { "sl": "Programske_i sodelavke_ci", "en": "Programme Collaborators" }, "name": "Nada Žgank, Lana Zdravković, Saška Rakef, Maja Delak" },
+        { "role": { "sl": "Festivalska ekipa", "en": "Festival Team" }, "name": "Sabina Potočki, Urban Belina, Daniel Petković, Sara Jelen, Matej Kovač, Urška Recer, Tina Prpar, Maša Radi" },
+        { "role": { "sl": "Odnosi z javnostmi in promocija", "en": "Public Relations and Promotion" }, "name": "Urban Belina in Sabina Potočki" },
+        { "role": { "sl": "Pomoč pri promociji", "en": "Help with Promotion" }, "name": "Daniel Petković in Sara Jelen" },
+        { "role": { "sl": "Celostna podoba festivala", "en": "Visual Identity" }, "name": "Kontrastika" },
+        { "role": { "sl": "Predloga spletišča", "en": "Website Template" }, "name": "Colabrio" },
+        { "role": { "sl": "Foto dokumentacija", "en": "Photo Documentation" }, "name": "Nada Žgank, Domen Pal" },
+        { "role": { "sl": "Video dokumentacija", "en": "Video Documentation" }, "name": "Tina Šulc" },
+        { "role": { "sl": "Angleški in slovenski prevod", "en": "English and Slovenian Translations" }, "name": "Urban Belina" },
+        { "role": { "sl": "Lektura slovenskih besedil", "en": "Proofreading of Slovenian Texts" }, "name": "Brina Devetak" },
+        { "role": { "sl": "Finance in pisarna", "en": "Finances and Office" }, "name": "Andreja Lapuh" },
+        { "role": { "sl": "Tehnična ekipa", "en": "Tech Team" }, "name": "Sindikat 2018 in ekipa Španskih borcev (Diamant)" },
+        { "role": { "sl": "Produkcija", "en": "Production" }, "name": "Emanat" },
+        { "role": { "sl": "Koprodukcija", "en": "Co-produced by" }, "name": "Rozinteater; Urban Belina in Daniel Petković; ŠKUC – Kulturni center Q/Klub Tiffany; FEM TV; ImproŠke/Društvo za kulturo in izobraževanje IMPRO; Za crknt/Društvo za sodobno klovnsko umetnost" },
+        { "role": { "sl": "Partnerji", "en": "Partners" }, "name": "AKC Metelkova mesto: Gala hala/KAPA, Klub Gromka, Galerija Alkatraz/KUD Mreža, Klub Tiffany, Menza pri koritu, Klub Monokel in Center kulture Španski borci" },
+        { "role": { "sl": "Finančna podpora", "en": "Financial support" }, "name": "Ministrstvo za kulturo RS in Mestna občina Ljubljana" },
+        { "role": { "sl": "Pokrovitelja", "en": "Sponsors" }, "name": "Kontrastika, Hotel Park" },
+        { "role": { "sl": "Medijski pokrovitelj", "en": "Media Sponzor" }, "name": "Mladina" },
+        { "role": { "sl": "V kolegialni kohabitaciji s festivalom Mladi levi", "en": "In collegial cohabitation with Mladi levi festival" } }
+      ],
+      "thumbnail": "/images/Sindikat 2018.jpeg"
+    },
+    {
+      "id": "proj7",
+      "type": "exhibition",
+      "title": { "sl": "Strap-tease", "en": "Strap-Tease" },
+      "author": { "sl": "Urban Belina", "en": "Urban Belina" },
+      "year": "2018",
+      "description": { "sl": "Uvrščeno delo: foto performans Sprevržena nebesa je cikel pet fotografij erotičnega telesnega plesa Lady Anous, ki je tudi kulminacija performansa Lažna dojka. V danem primeru posredovanje zdravstvenih pojavov poveže s pričakovanjim užitka. Polje užitka se zoži skoraj izključno na izvajalca, ki uživa v moči svoje sprevržene podobe.", "en": "Photo performance Twisted Paradise is a cycle of five photographies of erotic carnal dance of Lady Anous, that is also the climax of live performance The Fake Bosom. In the given case, through the intervention of medical phenomena, the act of undressing connects with an unexpected image. The field of pleasure is narrowed down almost exclusively to the performer, who enjoys in the power of own twisted image." },
+      "additionalInfo": { "sl": "V meni ni mamaglobina. V meni ni ženskega tkiva. Ampak to ni res, oni ne bodo nikoli razumeli, da sem prava bejba. Da imam vse, tudi materinski nagon!", "en": "There's no mammaglobin in me. There's no female tissue in me. But that's not true! They'll never understand that I'm a real woman! That I have everything, including a mother's instinct!" },
+      "venue": { "sl": "Strap-Tease: klub Tiffany Club, Ljubljana", "en": "Strap-Tease: Tiffany Club, Ljubljana" },
+      "credits": [
+        { "role": { "sl": "Koncept, tekst in protetika", "en": "Concept, text and prosthetics" }, "name": "Urban Belina" },
+        { "role": { "sl": "Izvajalec", "en": "Performer" }, "name": "Lady Anous (Daniel Petković)" },
+        { "role": { "sl": "Fotografije", "en": "Photography" }, "name": "Nada Žgank" },
+        { "role": { "sl": "Oblikovanje maske", "en": "Makeup design" }, "name": "Tina Prpar (Tinka Pobalinka)" },
+        { "role": { "sl": "Oblikovanje kostumov", "en": "Costume design" }, "name": "Sara Jelen" }
+      ],
+      "press": [
+      ],
+      "thumbnail": "/images/ld19.jpg"
+    },
+    {
+      "id": "proj8",
+      "type": ["performance", "exhibition", "postmedia"],
+      "title": { "sl": "Lažna dojka", "en": "The Fake Bosom" },
+      "author": { "sl": "Urban Belina", "en": "Urban Belina" },
+      "year": "2017",
+      "description": { "sl": "Postmedijski ustvarjalec, dramaturg in književni prevajalec Urban Belina se v tandemu s izvajalcem Danielom Petkovićem posveča raziskovanju neoburleske, kvirovskih pojavov, zdravstvene dejavnosti, industrije dobrega počutja, mejnih anatomij in (dis)identitet mavričnega spektra, kot tudi ostalih raznolikih izrazov in sindromov (post)človeškega obstoja. V izvedbi Lažna dojka predstavljata zgodbo Lady Anous, posameznice/-ka na transspolnem spektru v primežu zdravstvenega sistema med akutno fazo hipohondrije. Belina se na vsebinski ravni poigrava s fuzijo kvirovstva s heltizmom in vseprisotnim spodbujanjem zdravega življenjskega sloga.", "en": "Postmedia artist, literary translator, and writer Urban Belina in collaboration with performer Daniel(a) Petković researches the fields of neo-burlesque, queer phenomena, healthcare and wellbeing industry, marginal anatomies and identities of the rainbow spectrum, as well as other divergent expressions and syndromes of (post)human experience. In the scripted performance The Fake Bosom they present the story of Lady Anous, individual on the transgender spectrum in the grip of healthcare system during an acute phase of hypochondria." },
+      "additionalInfo": { "sl": "Na naravoslovno-družbeni ravni lahko zaznamo vzporednice s konstruiranjem oziroma razvojem tehnološko pogojene biologije, temporalne postgender entitete, ki predstavlja slutnjo prihodnjega ekosistema, poseljenega s hipernaravnimi ali biotehnološko modificiranimi nekdajčloveškimi bitji. V okviru uprizoritvene raziskave smo tako razvili protokol za temporalno modifikacijo spolnega spektra, ki vključuje uporabo tehnologije anatomske in po meri oblikovane prsne proteze z mehansko (tlačno) žlezo z zunanjim izločanjem in uporabo ostalih ustaljenih družbenih tehnologij za kodificiranje spola, s katerimi se vsakič znova odvije sprememba izvajalca Daniela v fenomen skupka diagnoz in tesnob Lady Anous. Protokol omogoča izvajanje začasnih pomikov na spektru spola ob sorazmerno blagih neželenih učinkih.", "en": "Today I show you bodily delights, I steer you into twisted heavenly heights. In the feverish tripping of tropical infections, In the safe embrace of health care structures..." },
+      "venue": { "sl": "Festival LGBT filma, Klub Tiffany, Ljubljana, SI, 24. 11. 2018, ob 19.00<br>Sindikat odklonskih entitet, Klub Gromka, Ljubljana, SI, 29. 8. 2018, ob 20.00<br>Kalejdoskop – festival sodobne odrske umetnosti, Layerjeva hiša (stolp Škrlovec), Kranj, 1. 6. 2018, ob 22.00<br>Galerija Račka, otvoritev občasne razstave Grda Račka, Center sodobnih umetnosti, Celje, 25. 5. 2018<br>Španski borci, Ljubljana, SI, 2. 12. 2017<br>Festival Živa 2017, Španski borci, Ljubljana, SI, 10. 11. 2017 (premiera krstne izvedbe).", "en": "Festival Živa 2017 (Španski borci, Ljubljana), Račka Gallery (Celje)" },
+      "credits": [
+        { "role": { "sl": "Koncept, besedilo, dramaturgija in protetika", "en": "Concept, text, dramaturgy and prosthetics" }, "name": "Urban Belina" },
+        { "role": { "sl": "Umetniška raziskava, koreografija in izvedba", "en": "Choreography and performance" }, "name": "Daniel Petković" },
+        { "role": { "sl": "Oblikovanje kostumov", "en": "Costume design" }, "name": "Sara Jelen" },
+        { "role": { "sl": "Oblikovanje maske", "en": "Makeup design" }, "name": "Tina Prpar (Tinka Pobalinka)" },
+        { "role": { "sl": "Zaključna glasba in oblikovanje zvoka", "en": "Sound design" }, "name": "Alenja Pivko Kneževič" },
+        { "role": { "sl": "Osvetlitev in video dokumentacija", "en": "Lighting and video documentation" }, "name": "Izidor Čok" },
+        { "role": { "sl": "Glasova na posnetkih", "en": "Voices on recordings" }, "name": "Saška Rakef in Sabina Potočki" },
+        { "role": { "sl": "Studijska obdelava zvoka", "en": "Studio sound processing" }, "name": "Simon Penšek" },
+        { "role": { "sl": "Jezikovni pregled", "en": "Language editing" }, "name": "Mateja Dermelj" },
+        { "role": { "sl": "Promocijske fotografije", "en": "Photography" }, "name": "Nada Žgank" },
+        { "role": { "sl": "Finančna podpora", "en": "Financial support" }, "name": "Umetniško raziskavo je podprlo Ministrstvo za kulturo RS." },
+        { "role": { "sl": "Zahvale", "en": "Thanks" }, "name": "Sonja Zlobko, Saška Rakef, Nina Meško, Anja Siegl" }
+      ],
+      "producer": { "sl": "Daniel Petković, samozaposlen v kulturi, in Urban Belina, samozaposlen v kulturi", "en": "Emanat" },
+      "press": [
+        { "text": { "sl": "The Anthology INTERNATIONAL QUEER DRAMA and Its Body of Work: An Interim Report, Lisa Wegener, trans. Fiona Mizani (EN), 23. 1. 2019" }, "url": "https://www.bel.si/f/64263363/An%20Interim%20Report.pdf" },
+        { "text": { "sl": "Estetika drag in kvir v performansu, Saška Rakef, Teja Reba, Lana Zdravković in Urban Belina – pogovor, program ARS, 1. 10. 2018" }, "url": "https://ars.rtvslo.si/podkast/oder/173250930/174565785" },
+        { "text": { "sl": "Užitek v preigravanju odklonskih identitet, Nika Arhar, MMC RTV SLO, 8. 9. 2018" }, "url": "https://www.rtvslo.si/kultura/oder/uzitek-v-preigravanju-odklonskih-identitet/465696" },
+        { "text": { "sl": "Sindikat odklonskih entitet, Meta Česnik, Kultura TV SLO, 29. 8. 2018" }, "url": "https://www.youtube.com/watch?v=TkRjDyEHgYM" },
+        { "text": { "sl": "Sindikat odklonskih entitet, nova platforma robnih urbanih žanrov, Delo, 28. 8. 2018" }, "url": "https://www.delo.si/kultura/oder/sindikat-odklonskih-entitet-nova-platforma-robnih-urbanih-zanrov-102014.html" },
+        { "text": { "sl": "Zaničniško odmaševanje Andreja Rozmana - Roze odpira festival Sindikat odklonskih entitet, MMC RTV SLO, 28. 8. 2018" }, "url": "https://www.rtvslo.si/kultura/oder/zanicnisko-odmasevanje-andreja-rozmana-roze-odpira-festival-sindikat-odklonskih-entitet/464378" },
+        { "text": { "sl": "Prvi letni shod slabo prilagojenih, Vanja Pirc, Mladina, 24. 8. 2018" }, "url": "https://www.mladina.si/186929/prvi-letni-shod-slabo-prilagojenih/" },
+        { "text": { "sl": "Otvoritev razstave Grda Račka št. 5, Museums.eu" }, "url": "http://museums.eu/exhibition/details/7392/ugly-duckling-no-5" },
+        { "text": { "sl": "Lady Anous v Grdi Rački, Brane Piano, Delo, 26. 5. 2018" }, "url": "https://www.delo.si/kultura/vizualna-umetnost/lady-anous-v-grdi-racki-66596.html" },
+        { "text": { "sl": "Preplesano leto 2017. Obilno in uspešno!, Daliborka Podboj, Parada plesa, 6. 1. 2018" }, "url": "https://www.paradaplesa.si/na-sceni/preplesano-leto-2017-obilno-in-uspesno/" },
+        { "text": { "sl": "Drugačnost v času in prostoru z Lažno dojko in Ibsnovimi ženskami, Daliborka Podboj, Parada plesa, 22. 12. 2017" }, "url": "https://www.paradaplesa.si/na-sceni/drugacnost-v-casu-in-prostoru-z-lazno-dojko-in-ibsenovimi-zenskami/" },
+        { "text": { "sl": "Daniel Petković. Njegova Lažna dojka vas popelje v sprevržena nebesa!, Parada plesa, 29. 11. 2017" }, "url": "https://www.paradaplesa.si/na-sceni/daniel-petkovic-njegova-lazna-dojka-vas-popelje-v-sprevrzena-nebesa/" },
+        { "text": { "sl": "Živa! Deset let festivala plesne ustvarjalnosti mladih, Daliborka Podboj, Parada plesa, 27. 11. 2017" }, "url": "https://www.paradaplesa.si/na-sceni/ziva-deset-let-festivala-plesne-ustvarjalnosti-mladih/" },
+        { "text": { "sl": "Parada, foto Nada Žgank, Mladina, 17. 11. 2017" }, "url": "https://www.mladina.si/182823/parada/" },
+        { "text": { "sl": "Plesna ustvarjalnost mladih se na oder postavi, K. T., MMC RTV SLO 8. 11. 2017" }, "url": "https://www.rtvslo.si/kultura/oder/plesna-ustvarjalnost-mladih-se-na-oder-postavi/437367" },
+        { "text": { "sl": "Začenja se tridnevni festival plesne ustvarjalnosti mladih Živa, mce/tv, STA, 8. 11. 2017" }, "url": "https://www.sta.si/2444199/zacenja-se-tridnevni-festival-plesne-ustvarjalnosti-mladih-ziva" },
+        { "text": { "sl": "Festival plesne ustvarjalnosti Živa 2017, JSKD, Sigledal, 1. 11. 2017" }, "url": "https://veza.sigledal.org/prispevki/festival-plesne-ustvarjalnosti-ziva-2017" }
+      ],
+      "thumbnail": "/images/ld1.jpg"
+    },
+    {
+      "id": "proj9",
+      "type": "performance",
+      "title": { "sl": "Terra umbilicus", "en": "Terra umbilicus" },
+      "author": { "sl": "Daniel Petković", "en": "Daniel Petković" },
+      "year": "2015",
+      "description": { "sl": "Avdiovizualni plesni performans Terra umbilicus zapušča normo, raziskuje spremenjena stanja zavesti in deviantne oblike obstoja. Oddaljuje se od izvorne kulture in prinaša skupaj fragmente svobode, ljubezni, tesnobe, hedonizma, nemira, odporja, pripadnosti in destrukcije.", "en": "Audio-visual dance performance Terra umbilicus subverts the norms, it explores altered states of consciousness and deviant forms of existence. Moving away from the original culture, it brings together fragments of freedom, love, anxiety, hedonism, restlessness, disgust, belonging, and destruction." },
+      "additionalInfo": { "sl": "Tukaj ni smeri. Tečem v vse brezštevilne smeri hkrati. Raztečene so. Kam je druga stran?", "en": "There are no directions here. I am running into all countless directions at once. They are cracked. Where to is the other side?" },
+      "credits": [
+        { "role": { "sl": "Koncept in izvedba", "en": "Concept and performance" }, "name": "Daniel Petković" },
+        { "role": { "sl": "Scenarij, scenografija in generativni video z mapiranjem", "en": "Script, scenography and generative video mapping" }, "name": "Urban Belina" },
+        { "role": { "sl": "Zvočni design", "en": "Sound design" }, "name": "Evano" },
+        { "role": { "sl": "Osvetlitev in tehnični vodja", "en": "Lighting and technical manager" }, "name": "Janko Oven" },
+        { "role": { "sl": "Fotografije", "en": "Photography" }, "name": "Nada Žgank" }
+      ],
+      "producer": { "sl": "Emanat", "en": "Emanat" },
+      "press": [
+        { "text": { "sl": "Narobe, Premiera prvenca Daniel Petkovića ta teden v Stari pošti, 6. 7. 2015" }, "url": "http://www.narobe.si/premiera-prvenca-daniela-petkovica-ta-teden-v-stari-posti.html" },
+        { "text": { "sl": "Mladina, Damjana Kolar, Prostor radikalne svobode in drznosti, 8. 7. 2015" }, "url": "http://www.mladina.si/167832/prostor-radikalne-svobode-in-drznosti/" },
+        { "text": { "sl": "STA, V SMG premierno Petkovićev AV performans Terra umbilicus, 8. 7. 2015" }, "url": "http://www.sta.si/2153205/v-smg-premierno-petkovicev-av-performans-terra-umbilicus" },
+        { "text": { "sl": "MMC RTV SLO, Nika Arhar, Raziskovanje človeških stanj v avdio-vizualnem svetišču, 8. 7. 2015" }, "url": "http://www.rtvslo.si/kultura/oder/raziskovanje-cloveskih-stanj-v-avdio-vizualnem-svetiscu/369123" },
+        { "text": { "sl": "RTV SLO, Poletna scena, prispevki, Terra umbilicus Daniela Petkovića, 8. 7. 2015" }, "url": "http://4d.rtvslo.si/arhiv/poletna-scena/174346899" },
+        { "text": { "sl": "Parada plesa, intervju, Ples me zanima iz vseh zornih kotov, 16. 7. 2015" }, "url": "http://www.paradaplesa.si/na-sceni/ples-me-zanima-iz-vseh-zornih-kotov/" },
+        { "text": { "sl": "Reporter, E.M.M., Popek sveta, 13. 7. 2015" }, "url": "http://emanat.si/i/d/20150713115456_reporter__13_7_2015.pdf" },
+        { "text": { "sl": "Dnevnik, Ana Schnabl, Dizajnerski popek, 14. 7. 2015" }, "url": "http://www.dnevnik.si/1042721180" },
+        { "text": { "sl": "Parada plesa, Daliborka Podboj, Popek sveta na svoj rojstni dan, 25. 7. 2015" }, "url": "http://www.paradaplesa.si/na-sceni/popek-sveta-na-svoj-rojstni-dan/" },
+        { "text": { "sl": "Büro fur tanz, teater, produktionen, Gefangen im Bild, 11. 10. 2016" }, "url": "http://www.tanz.at/kritiken/kritiken-2016/1770-gefangen-im-bild.html" }
+      ],
+      "media": [
+        { "type": "image", "url": "/images/tu.jpg" },
+        { "type": "image", "url": "/images/tu2.jpg" },
+        { "type": "image", "url": "/images/tu3.jpg" },
+        { "type": "video", "url": "https://player.vimeo.com/video/139149875" }
+      ],
+      "thumbnail": "/images/tu6.jpg"
+    },
+    {
+      "id": "proj10a",
+      "type": ["exhibition", "postmedia"],
+      "title": { "sl": "∆ Lacanoid na Real Time Settings for Ner(d\\ve)s", "en": "∆ Lacanoid at Real Time Settings for Ner(d\\ve)s" },
+      "year": "2012",
+      "description": { "sl": "Triada Lacanoid raziskuje nenehna nihanja, ki sodelujejo pri tvorjenju zavedanja in procesov spoznavanja. Koncept ∆ Lacanoid je gestalt - celovita izdelava unifikiranega koncepta prepletenih vzorcev, protokolov in podatkovnih paketov, ki tekmujejo za dominacijo in s tem vplivajo na avtopoezo ustvarjalnega bitja. ∆ Lacanoid je tok informacij v realnem času, strukturirano zasnovan za vmesnik preko vizualnih in kinestetskih referenc, ki jih za uspešno komunikacijo potrebujejo ljudje. Oddaja zvočne čustvene vzorce. Vabi vas, da pristopite bližje in jo analizirate z različnimi orodji. A pozor: elektronska umetnost uporablja visoke napetosti, zato spoštujte osebni prostor opazovane entitete - neposredni stik je močno odsvetovan.", "en": "Triad researches perpetual oscillations that collaborate in the formation of awareness and cognition processes. The concept ∆ Lacanoid is a gestalt - a holistic creation of a unified concept of intermingled patterns, protocols and data packs that compete for domination, and by doing so, co-influence creative being's autopoiesis. ∆ Lacanoid is a real-time flow of information, structurally designed to interface over the visual and kinaesthetic references that humans require for successful communication. It emits aural emotional patterns. You are invited to come closer and analyse it with various tools. But beware: electronic art uses high voltages, so please respect the personal space of the observed entity - direct contact is strongly discouraged." },
+      "producer": { "sl": "Ljudmila", "en": "Ljudmila" },
+      "credits": [
+        { "role": { "sl": "Umetnik", "en": "Artist" }, "name": "Urban Belina" },
+        { "role": { "sl": "Programer", "en": "Programmer" }, "name": "Žiga Kranjec" },
+        { "role": { "sl": "3D modeliranje", "en": "3D Modeling" }, "name": "Igor Križanovskij" },
+        { "role": { "sl": "Konzultant", "en": "Consultant" }, "name": "Luka Frelih" }
+      ],
+      "press": [],
+      "media": [
+        { "type": "image", "url": "/images/lacanoid2.jpg" },
+        { "type": "image", "url": "/images/lacanoid3.jpg" },
+        { "type": "image", "url": "/images/lacanoid4.jpg" },
+        { "type": "image", "url": "/images/lacanoid-3d.jpg" },
+        { "type": "video", "url": "https://player.vimeo.com/video/42689719" },
+        { "type": "video", "url": "https://vimeo.com/65951655" },
+        { "type": "video", "url": "https://www.youtube.com/embed/TkRjDyEHgYM" },
+        { "type": "video", "url": "https://youtu.be/4rMNmzTsUeM" }
+      ],
+      "thumbnail": "/images/lacanoid.jpg"
+    },
+    {
+      "id": "proj11",
+      "type": ["performance", "exhibition"],
+      "title": { "sl": "Biti svoj lastni prevod", "en": "Being One's Own Translation" },
+      "year": "2010",
+      "description": { "sl": "Avdiovizualni multimedijski performans po pesniški zbirki Gašperja Maleja Rezi v zlatem. Being One's Own Translation (BS-LP) je perpetuum mobile prevajanja, ki se dogaja v nenehno razvijajoči, prilagodljivi obliki, ki se spreminja ob vsakem stiku z novo kulturo. Proces se je začel v okviru programa Ljubljana, svetovna prestolnica knjige 2010, in se vrti okoli radikalnega prevajanja zbirke slovenske poezije. Prevajanja so bila transkreirana v dogodek žive avdiovizualne izvedbe, vrstice so bile izsečene in ponovno sestavljene, vizualizirane kot generativna vsebina z računalniškim jezikovnim prevajanjem, sonificirane kot labirint človeških jezikovnih prevodov ter prostorizirane kot mreža prevodov plesne/gibalne izražanja.", "en": "Audiovisual multimedia performance based on the poetry collection Rezi v zlatem by Gašper Malej. Being One's Own Translation (BS-LP) is a perpetuum mobile of translation, that occurs in a constantly evolving, malleable form, transformed upon every contact with a new culture. The process was initiated within the framework of Ljubljana, World Book Capital 2010 UNESCO programme, and evolves around the radical translation of a Slovene poetry collection. It has been transcreated into a live audiovisual performance event, verses were cut and re-assembled, visualized as generative content with computer language translation, sonified as a labyrinth of human language translations, and spatialized as a network of dance/movement language translations." },
+      "additionalInfo": { "sl": "Predstava je prejela posebno priznanje za umetniško doslednost in interdisciplinarni pristop k ustvarjanju uprizoritev na mednarodnem festivalu Patossofiranje 2013. Uprizoritve: Ljubljana – Svetovna prestolnica knjige 2010, premiera 30. 10. 2010, Gledališče Koper (predstavitev dela v nastajanju), 8.–10. 12 2010, Galerija ŠKUC (premiera in dve ponovitvi). Gostovanja: Studentski centar Zagreb (2012), The Edge, Avstralija (2012), The Concourse, Avstralija (2012), Perth Cultural Centre Big Screen (2012), Festival Patossofiranje Smederevo (2013), Inštitut INALCO, Pariz (2013), Hiša slovenske poezije, Kulturni center Tinqueux (2013).", "en": "The performance received a special recognition for artistic consistency and interdisciplinary approach at the Patossofiranje International Festival in 2013. Performances: Ljubljana – World Book Capital 2010, premiere 30. 10. 2010, Koper Theatre (work in progress presentation), 8–10. 12 2010, ŠKUC Gallery (premiere and two reruns). Tours: Student Centre Zagreb (2012), The Edge, Australia (2012), The Concourse, Australia (2012), Perth Cultural Centre Big Screen (2012), Patossofiranje Festival Smederevo (2013), INALCO Institute, Paris (2013), House of Slovenian Poetry, Tinqueux Cultural Centre (2013)." },
+      "venue": { "sl": "Galerija ŠKUC, Ljubljana", "en": "ŠKUC Gallery, Ljubljana" },
+      "credits": [
+        { "role": { "sl": "Koncept, scenarij, vizualizacija in režija", "en": "Concept, Script, Visuals and Direction" }, "name": "Urban Belina" },
+        { "role": { "sl": "Performerja", "en": "Performers" }, "name": "Sonja Polanc, Daniel Petković" },
+        { "role": { "sl": "Oblikovanje zvoka", "en": "Sound design" }, "name": "Miha Erman" },
+        { "role": { "sl": "Razvijalec programske opreme", "en": "Software developer" }, "name": "Žiga Kranjec" },
+        { "role": { "sl": "Oblikovanje svetlobe", "en": "Lighting design" }, "name": "Davor Balent (Ljubljana, Smederevo), Jaka Varmuž (Koper)" },
+        { "role": { "sl": "Kostumografija", "en": "Costume design" }, "name": "Damir Raković, Urban Belina" },
+        { "role": { "sl": "Fotografija", "en": "Photography" }, "name": "Radovan Čok" },
+        { "role": { "sl": "Maska", "en": "Makeup" }, "name": "Nastja Starič" },
+        { "role": { "sl": "Glasovi", "en": "Voices" }, "name": "Matija Barl (nemščina), Izidor Čok, Klarisa Jovanović (grščina), Franco Juri (španščina), Andreja Kalc (ruščina), Taja Kramberger (francoščina), Breda Biščak (angleščina), Katjuša Ručigaj (nizozemščina), Marko Sosič (tržaški dialekt), Mario Steffé (italijanščina), Goran Ziraldo (hrvaščina), Iva Ziraldo (japonščina, korejščina)" },
+        { "role": { "sl": "Prevajalci", "en": "Translators" }, "name": "Marco Apollonio (italijanščina), Urška P. Černe in Matthias Göritz (nemščina), Vid Jeranko in Matija Ravitz (španščina), Klarisa Jovanović (grščina), Andreja Kalc (ruščina), Nagisa Moritoki Škof (japonščina), Sonja Polanc (srbščina), Milan Rakovac (hrvaščina), Mateja Seliškar Kenda (nizozemščina), Marko Sosič (tržaški dialekt), Nataša Varušak (francoščina), Christopher Whyte (angleščina), Breda Biščak (angleščina), Iva Ziraldo (korejščina)" },
+        { "role": { "sl": "Produkcija", "en": "Production" }, "name": "Center za slovensko književnost" },
+        { "role": { "sl": "Koprodukcija", "en": "Co-production" }, "name": "Društvo LJUDMILA, KUD AAC Zrakogled, Skupnost Italijanov Santorio Santorio Koper" },
+        { "role": { "sl": "Partnerji", "en": "Partners" }, "name": "Galerija ŠKUC, Gledališče Koper, RTV Koper Capodistria (Studio Hendrix), revija Monitor ZSA, revija Kula" }
+      ],
+      "press": [],
+      "media": [
+        { "type": "image", "url": "/images/bs-lp2.jpg" },
+        { "type": "image", "url": "/images/bs-lp3.jpg" },
+        { "type": "image", "url": "/images/bs-lp4.jpg" },
+        { "type": "image", "url": "/images/bs-lp5.jpg" },
+        { "type": "video", "url": "https://player.vimeo.com/video/23357844" }
+      ],
+      "thumbnail": "/images/bs-lp.jpg"
+    },
+    {
+      "id": "proj-besedatrans",
+      "type": "performance",
+      "title": {
+        "sl": "BesedaTrans",
+        "en": "WordTrans"
+      },
+      "year": "2009",
+      "description": { "sl": "BesedaTrans, trojezični performans. Performans je bil uprizorjen na odmevni otvoritvi mednarodnega knjižnega sejma „Histria in Libris“ v Kopru.", "en": "WordTrans, a trilingual performance. The performance was staged at the high-profile opening of the 'Histria in Libris' international book fair in Koper." },
+      "additionalInfo": { "sl": "Na osnovi odlomkov iz proze istrskih avtorjev.", "en": "Based on excerpts from the prose of Istrian authors." },
+      "credits": [
+        {
+          "role": { "sl": "Režija", "en": "Direction" },
+          "name": "Urban Belina"
+        },
+        {
+          "role": { "sl": "Nastopata", "en": "Performers" },
+          "name": "Sonja Polanc, Michela Vitali"
+        },
+        {
+          "role": { "sl": "Scenarij", "en": "Script" },
+          "name": "Urban Belina, Gašper Malej, Marco Apollonio"
+        }
+      ],
+      "thumbnail": "/images/besedatrans.jpg"
+    },
+    {
+      "id": "proj12",
+      "type": "performance",
+      "title": { "sl": "Medeja Blossoming", "en": "Medeja Blossoming" },
+      "author": { "sl": "Saška Rakef, Vanda Butković in Urban Belina", "en": "Saška Rakef, Vanda Butković and Urban Belina" },
+      "year": "2008",
+      "venue": { "sl": "Festival Patosoffiranje, Smederevo, Srbija", "en": "Patosoffiranje Festival, Smederevo, Serbia" },
+       "media": [
+        { "type": "image", "url": "/images/Medeja-blossoming-baby.jpeg" }
+      ],
+      "thumbnail": "/images/Medeja-blossoming.jpeg"
+    },
+    {
+      "id": "proj13",
+      "type": "performance",
+      "title": { "sl": "Mama / La Madre", "en": "Mama / La Madre" },
+      "author": { "sl": "Vesna Furlanič Valentinčič", "en": "Vesna Furlanič Valentinčič" },
+      "year": "2008",
+      "producer": { "sl": "KUD AAC Zrakogled, Koper", "en": "KUD AAC Zrakogled, Koper" },
+      "credits": [{ "role": { "sl": "Scenografija", "en": "Scenography" }, "name": "Urban Belina" }],
+      "thumbnail": "/images/madre2.jpg",
+      "media": [
+        { "type": "image", "url": "/images/madre2.jpg" }
+      ]
+    },
+    {
+      "id": "proj14a",
+      "type": "exhibition",
+      "title": { "sl": "Javni kipi", "en": "Public Sculptures" },
+      "year": "2007",
+      "producer": { "sl": "Zavod za kiparstvo", "en": "Sculpture Institute" },
+      "credits": [{ "role": { "sl": "Selektor", "en": "Selector" }, "name": "dr. Aleš Erjavec" }],
+      "thumbnail": "/images/20240107_100900.jpg",
+      "media": [
+        { "type": "image", "url": "/images/20240107_100900.jpg" }
+      ]
+    },
+    {
+      "id": "proj15",
+      "type": "exhibition",
+      "title": { "sl": "Sublimno v kiparstvu", "en": "The Sublime in Sculpture" },
+      "year": "2006",
+      "producer": { "sl": "Zavod za kiparstvo", "en": "Sculpture Institute" },
+      "credits": [{ "role": { "sl": "Selektor", "en": "Selector" }, "name": "dr. Aleš Erjavec" }],
+      "thumbnail": "/images/20240107_100846.jpg",
+      "media": [
+        { "type": "image", "url": "/images/20240107_100846.jpg" }
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "id": "text-omogocanje-skupnega",
+      "type": "text",
+      "title": { "sl": "Omogočanje skupnega s poetičnimi zaplatami v nevidnem", "en": "Enabling the Common with Poetic Patches in the Invisible" },
+      "year": "2024",
+      "description": { "sl": "Prispevek o platformi Krpanje nevidnega, objavljen na spletnem mediju Aplavz!.", "en": "An article about the Mending the Invisible platform, published on the Aplavz! online media." },
+      "pdfUrl": "/images/Omogocanje-skupnega.pdf",
+      "additionalInfo": { "sl": "Besedilo je na voljo samo v slovenščini.", "en": "The text is available only in Slovenian." }
+    },
+    {
+      "id": "text1",
+      "type": "text",
+      "title": { "sl": "Lažna dojka (izvirnik)", "en": "The Fake Bosom in Slovenian" },
+      "year": "2017",
+      "description": { "sl": "Heltistična burleska Lažna dojka", "en": "Healtist burlesque The Fake Bosom" },
+      "pdfUrl": "/images/Urban Belina_ Lažna dojka.pdf",
+      "additionalInfo": { "sl": "Uprizorjeno v Ljubljani.", "en": "Staged in Ljubljana." }
+    },
+    {
+      "id": "text2",
+      "type": "text",
+      "title": { "sl": "Lažna dojka (prevod)", "en": "The Fake Bosom in English" },
+      "year": "2017",
+      "description": { "sl": "Angleški prevod burleske Lažna dojka", "en": "English translation of The Fake Bosom" },
+      "pdfUrl": "/images/Lažna dojka – The Fake Bossom_en-GB.docx.pdf",
+      "additionalInfo": { "sl": "Uprizorjeno v Ljubljani.", "en": "Staged in Ljubljana." }
+    },
+    {
+      "id": "text3",
+      "type": "text",
+      "title": { "sl": "Bibliografija", "en": "Bibliography in Slovenian" },
+      "year": "2025",
+      "description": { "sl": "Bibliografija", "en": "Bibliography in Slovenian" },
+      "pdfUrl": "/images/Bibliografija-U-Belina-SL.pdf",
+      "additionalInfo": { "sl": "Slovenska verzija bibliografije.", "en": "Slovenian version of the bibliography." }
+    },
+    {
+      "id": "text4",
+      "type": "text",
+      "title": { "sl": "Bibliografija EN", "en": "Bibliography in English" },
+      "year": "2025",
+      "description": { "sl": "Bibliografija EN", "en": "Bibliography in English" },
+      "pdfUrl": "/images/Bibliografija-U-Belina-EN.pdf",
+      "additionalInfo": { "sl": "Angleška verzija bibliografije.", "en": "English version of the bibliography." }
+    },
+    {
+      "id": "text-jubilee",
+      "type": "text",
+      "title": { "sl": "Jubilej kot ceremonial sožitja dediščin sveta", "en": "Jubilee as a Ceremonial of Coexistence of Heritages of the World" },
+      "year": "2021",
+      "description": { "sl": "Besedilo iz gledališkega lista za predstavo Jubilej.", "en": "Text from the theatre bulletin for the performance Jubilee." },
+      "pdfUrl": { "sl": "/images/Jubilej.pdf", "en": "/images/Jubilee.pdf" },
+      "additionalInfo": { "sl": "Objavljeno v gledališkem listu Gledališča Glej.", "en": "Published in the theatre bulletin of Glej Theatre." }
+    },
+    {
+      "id": "text-sindikat",
+      "type": "text",
+      "title": { "sl": "Manifest Sindikata odklonskih entitet", "en": "Manifesto of the Syndicate of Outlandish Entities" },
+      "year": "2018",
+      "description": { "sl": "Manifest, ki je pospremil prvo edicijo festivala Sindikat odklonskih entitet.", "en": "The manifesto that accompanied the first edition of the Syndicate of Outlandish Entities festival." },
+      "pdfUrl": { "sl": "/images/Sindikat manifest.pdf", "en": "/images/Syndicate Manifesto.pdf" },
+      "additionalInfo": { "sl": "Festival je potekal v Ljubljani leta 2018.", "en": "The festival took place in Ljubljana in 2018." }
+    }
+  ]
+}
