@@ -15,6 +15,7 @@ const PortfolioArchive = () => {
   const [isSelecting, setIsSelecting] = useState(false);
   const containerRef = useRef(null);
   const pathRefs = useRef([]);
+  const scrollYRef = useRef(0); // Use a ref to store scroll position
 
   const [animationOffset, setAnimationOffset] = useState(0);
   const t = translations[lang];
@@ -30,16 +31,35 @@ const PortfolioArchive = () => {
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
+  // This useEffect hook is now a robust solution for locking body scroll on mobile
   useEffect(() => {
-    if (selectedItem) {
-      document.body.classList.add('overflow-hidden');
-    } else {
-      document.body.classList.remove('overflow-hidden');
-    }
+    if (typeof window === 'undefined') return;
 
-    return () => {
-      document.body.classList.remove('overflow-hidden');
+    const html = document.documentElement;
+    const body = document.body;
+
+    const lockScroll = () => {
+      scrollYRef.current = window.scrollY; // Store scroll position when locking
+      body.style.position = 'fixed';
+      body.style.top = `-${scrollYRef.current}px`;
+      body.style.width = '100%';
+      html.style.overflow = 'hidden';
     };
+
+    const unlockScroll = () => {
+      const scrollY = scrollYRef.current; // Retrieve scroll position
+      body.style.position = '';
+      body.style.top = '';
+      body.style.width = '';
+      html.style.overflow = '';
+      window.scrollTo(0, scrollY);
+    };
+
+    if (selectedItem) {
+      lockScroll();
+    } else {
+      unlockScroll();
+    }
   }, [selectedItem]);
 
   const handleMouseMove = (e) => {
