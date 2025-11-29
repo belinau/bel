@@ -47,7 +47,7 @@ const PortfolioArchive = () => {
     : allItems.filter(item => {
         // Special case for translations filter
         if (filter === 'publications') return item.type === 'publication';
-        
+
         // Check if item.type is an array and if it includes the current filter
         if (Array.isArray(item.type)) {
           return item.type.includes(filter);
@@ -72,7 +72,7 @@ const PortfolioArchive = () => {
   return (
     <div className="min-h-screen bg-neutral-50">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-40 border-b border-neutral-200">
+      <header className="sticky top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-40 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-6 flex justify-between items-center">
           <h1 className="text-xl md:text-2xl font-light tracking-tight">{t.archive}</h1>
           <div className="flex gap-2">
@@ -93,7 +93,7 @@ const PortfolioArchive = () => {
       </header>
 
       {/* Filters */}
-      <div className="fixed top-16 md:top-20 left-0 right-0 bg-white/60 backdrop-blur-sm z-40 border-b border-neutral-200">
+      <div className="sticky top-16 md:top-20 left-0 right-0 bg-white/60 backdrop-blur-sm z-40 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-3 md:py-4">
           <div className="flex gap-2 md:gap-3 flex-wrap">
             {categories.map(cat => (
@@ -119,7 +119,7 @@ const PortfolioArchive = () => {
       <div
         ref={containerRef}
         className="pt-32 md:pt-44 pb-20 px-4 md:px-6"
-        onMouseMove={handleMouseMove} 
+        onMouseMove={handleMouseMove}
       >
         <div className="max-w-7xl mx-auto">
           <div className="relative">
@@ -502,7 +502,7 @@ const PortfolioArchive = () => {
       </AnimatePresence>
     </div>
   );
-}; 
+};
 
 const SafeEmail = ({ user, host, children }) => {
   // This component constructs the mailto link on the client side,
@@ -526,7 +526,7 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
 
     // Correctly calculate the ACTUAL number of items on this specific path.
     const itemsOnThisPath = Math.floor((total - 1 - pathIndex) / pathCount) + 1;
-    
+
     // Correctly determine the item's sequential index on its specific path.
     const itemIndexOnPath = Math.floor(index / pathCount);
 
@@ -605,4 +605,4 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
   );
 };
 
-export default PortfolioArchive; 
+export default PortfolioArchive;
