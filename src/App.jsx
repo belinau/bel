@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform, animate, useAnimationFrame } from 'framer-motion';
 import { X, ExternalLink, Calendar, MapPin, Film, Users, BookOpen } from 'lucide-react';
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 import translations from './translations.json';
 
@@ -15,7 +16,7 @@ const PortfolioArchive = () => {
   const [isSelecting, setIsSelecting] = useState(false);
   const containerRef = useRef(null);
   const pathRefs = useRef([]);
-  const scrollYRef = useRef(0); // Use a ref to store scroll position
+  const modalRef = useRef(null); // Create a ref for the modal's scrollable element
 
   const [animationOffset, setAnimationOffset] = useState(0);
   const t = translations[lang];
@@ -31,34 +32,20 @@ const PortfolioArchive = () => {
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
-  // This useEffect hook is now a robust solution for locking body scroll on mobile
+  // Use the 'body-scroll-lock' library for a robust, cross-browser solution.
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const html = document.documentElement;
-    const body = document.body;
-
-    const lockScroll = () => {
-      scrollYRef.current = window.scrollY; // Store scroll position when locking
-      body.style.position = 'fixed';
-      body.style.top = `-${scrollYRef.current}px`;
-      body.style.width = '100%';
-      html.style.overflow = 'hidden';
-    };
-
-    const unlockScroll = () => {
-      const scrollY = scrollYRef.current; // Retrieve scroll position
-      body.style.position = '';
-      body.style.top = '';
-      body.style.width = '';
-      html.style.overflow = '';
-      window.scrollTo(0, scrollY);
-    };
+    const modalElement = modalRef.current;
 
     if (selectedItem) {
-      lockScroll();
-    } else {
-      unlockScroll();
+      if (modalElement) {
+        // Disable body scroll, but allow scrolling on the modalElement.
+        disableBodyScroll(modalElement, { reserveScrollBarGap: true });
+      }
+    }
+
+    // The cleanup function will be called when the modal closes.
+    return () => {
+      enableBodyScroll(modalElement);
     }
   }, [selectedItem]);
 
@@ -251,7 +238,7 @@ const PortfolioArchive = () => {
               exit={{ opacity: 0, y: 50 }}
               className="fixed inset-x-8 top-24 bottom-24 md:inset-x-20 md:top-20 md:bottom-10 bg-white rounded-2xl z-50 overflow-hidden flex flex-col shadow-2xl"
             >
-              <div className="flex-1 overflow-y-auto">
+              <div ref={modalRef} className="flex-1 overflow-y-auto">
                 <button
                   onClick={() => setSelectedItem(null)} // Close button for the modal
                   className="sticky top-4 right-4 float-right w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center hover:bg-neutral-100 transition-colors z-10"
