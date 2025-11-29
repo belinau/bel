@@ -76,7 +76,7 @@ const PortfolioArchive = () => {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-neutral-50" style={{ overflow: 'visible' }}>
       {/* Header */}
       <header className="sticky top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-40 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-6 flex justify-between items-center">
@@ -121,13 +121,17 @@ const PortfolioArchive = () => {
         </div>
       </div>
 
-      {/* Canvas Container - Fixed for mobile */}
+      {/* Canvas Container - FIXED: Proper height for mobile */}
       <div
         ref={containerRef}
         className="pt-20 md:pt-44 pb-20 px-4 md:px-6"
+        style={{ 
+          minHeight: isMobile ? '80vh' : 'auto',
+          overflow: 'visible'
+        }}
         onMouseMove={handleMouseMove}
       >
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto" style={{ position: 'relative', height: isMobile ? '70vh' : '150vh' }}>
           <AnimatedCanvas
             items={filteredItems}
             mousePos={mousePos}
@@ -150,7 +154,7 @@ const PortfolioArchive = () => {
         </div>
       </footer>
 
-      {/* Detail Modal */}
+      {/* Detail Modal - FIXED: Proper mobile sizing */}
       <AnimatePresence>
         {selectedItem && (
           <>
@@ -165,7 +169,15 @@ const PortfolioArchive = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 50 }}
-              className="fixed inset-x-8 top-24 bottom-24 md:inset-x-20 md:top-20 md:bottom-10 bg-white rounded-2xl z-50 overflow-hidden flex flex-col shadow-2xl"
+              className="fixed bg-white z-50 overflow-hidden flex flex-col shadow-2xl"
+              style={{
+                left: isMobile ? '1rem' : '5rem',
+                right: isMobile ? '1rem' : '5rem',
+                top: isMobile ? '1rem' : '5rem',
+                bottom: isMobile ? '1rem' : '2.5rem',
+                borderRadius: '1rem',
+                maxHeight: isMobile ? 'calc(100vh - 2rem)' : 'calc(100vh - 7.5rem)'
+              }}
             >
               <div ref={modalRef} className="flex-1 overflow-y-auto">
                 <button
@@ -551,26 +563,30 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
-  // MOBILE FIX: Responsive viewBox height
-  const viewBoxHeight = isMobile ? 1200 : 2400;
+  // CRITICAL FIX: Much shorter SVG on mobile
+  const svgHeight = isMobile ? 800 : 2400;
+  const svgWidth = 1200;
 
   return (
-    <div className="relative">
+    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <svg
-        className="w-full"
-        viewBox={`0 0 1200 ${viewBoxHeight}`}
-        preserveAspectRatio="xMidYMid meet"
         style={{
-          maxHeight: isMobile ? '60vh' : 'none',
+          width: '100%',
+          height: isMobile ? '100%' : 'auto',
+          position: 'absolute',
+          top: 0,
+          left: 0,
           pointerEvents: 'none',
           touchAction: 'pan-y'
         }}
+        viewBox={`0 0 ${svgWidth} ${svgHeight}`}
+        preserveAspectRatio="xMidYMid meet"
       >
-        {/* MOBILE FIX: Adjusted path positions for mobile */}
+        {/* MOBILE: Compressed paths */}
         <path
           ref={el => pathRefs.current[0] = el}
           d={isMobile 
-            ? "M 20 150 C 500 -50, 700 350, 1180 150 C 700 -50, 500 350, 20 150 Z"
+            ? "M 20 100 C 500 -50, 700 250, 1180 100 C 700 -50, 500 250, 20 100 Z"
             : "M 20 150 C 500 -150, 700 450, 1180 150 C 700 -150, 500 450, 20 150 Z"
           }
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
@@ -578,7 +594,7 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
         <path
           ref={el => pathRefs.current[1] = el}
           d={isMobile
-            ? "M 20 350 C 300 150, 900 550, 1180 350 C 900 150, 300 550, 20 350 Z"
+            ? "M 20 250 C 300 100, 900 400, 1180 250 C 900 100, 300 400, 20 250 Z"
             : "M 20 350 C 300 50, 900 650, 1180 350 C 900 50, 300 650, 20 350 Z"
           }
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
@@ -586,7 +602,7 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
         <path
           ref={el => pathRefs.current[2] = el}
           d={isMobile
-            ? "M 20 550 C 600 400, 600 700, 1180 550 C 600 400, 600 700, 20 550 Z"
+            ? "M 20 400 C 600 300, 600 500, 1180 400 C 600 300, 600 500, 20 400 Z"
             : "M 20 550 C 600 300, 600 800, 1180 550 C 600 300, 600 800, 20 550 Z"
           }
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
@@ -594,7 +610,7 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
         <path
           ref={el => pathRefs.current[3] = el}
           d={isMobile
-            ? "M 20 750 C 300 600, 900 900, 1180 750 C 900 600, 300 900, 20 750 Z"
+            ? "M 20 550 C 300 450, 900 650, 1180 550 C 900 450, 300 650, 20 550 Z"
             : "M 20 750 C 300 550, 900 950, 1180 750 C 900 550, 300 950, 20 750 Z"
           }
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
@@ -602,14 +618,14 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
         <path
           ref={el => pathRefs.current[4] = el}
           d={isMobile
-            ? "M 20 950 C 500 800, 700 1100, 1180 950 C 700 800, 500 1100, 20 950 Z"
+            ? "M 20 700 C 500 600, 700 800, 1180 700 C 700 600, 500 800, 20 700 Z"
             : "M 20 950 C 500 750, 700 1250, 1180 950 C 700 750, 500 1250, 20 950 Z"
           }
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
         />
       </svg>
 
-      <div className="absolute inset-0" style={{ pointerEvents: 'none' }}>
+      <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
         <AnimatePresence mode="popLayout">
           {items.map((item, index) => (
             <PathItem
