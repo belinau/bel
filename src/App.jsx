@@ -125,15 +125,22 @@ const PortfolioArchive = () => {
       {/* Canvas Container - FIXED: Proper height for mobile */}
       <div
         ref={containerRef}
-        className="pt-20 md:pt-44 pb-20 px-4 md:px-6"
+        className="pt-20 md:pt-44 pb-20 px-4"
         style={{
           minHeight: isMobile ? '80vh' : 'auto',
+          maxHeight: isMobile ? '80vh' : 'none',
           overflow: isMobile ? 'auto' : 'visible',
-          touchAction: isMobile ? 'pan-y' : 'auto'
+          touchAction: isMobile ? 'pan-y' : 'auto',
+          position: 'relative'
         }}
         onMouseMove={handleMouseMove}
       >
-        <div className="max-w-7xl mx-auto" style={{ position: 'relative', height: isMobile ? '100%' : '150vh' }}>
+        <div className={isMobile ? "max-w-full mx-0" : "max-w-7xl mx-auto"} style={{
+          position: isMobile ? 'static' : 'relative',
+          height: isMobile ? 'auto' : '150vh',
+          minHeight: isMobile ? '100vh' : '150vh',
+          overflow: isMobile ? 'visible' : 'visible'
+        }}>
           <AnimatedCanvas
             items={filteredItems}
             mousePos={mousePos}
