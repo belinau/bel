@@ -32,11 +32,11 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
     y.set(newY);
   });
 
-  // Smaller dimensions for mobile
+  // Even smaller dimensions for mobile
   const isPublication = item.type === 'publication';
   const isText = item.type === 'text';
-  const itemWidth = isPublication ? 80 : (isText ? 60 : 70);
-  const itemHeight = isText ? 80 : 100;
+  const itemWidth = isPublication ? 60 : (isText ? 50 : 60); // Reduced from 80/60/70 to 60/50/60
+  const itemHeight = isText ? 70 : 80; // Reduced from 80/100 to 70/80
 
   return (
     <motion.div
@@ -59,7 +59,7 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
       <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm">
         {item.type === 'text' ? (
           <div className="flex items-center justify-center w-full h-full bg-neutral-100">
-            <svg className="w-1/3 h-1/3 text-neutral-400" fill="currentColor" viewBox="0 0 20 20">
+            <svg className="w-1/2 h-1/2 text-neutral-400" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
             </svg>
           </div>
@@ -72,7 +72,7 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
               onError={(e) => { e.target.src = '/images/base.jpg'; }}
             />
             <div className="absolute bottom-0 left-0 right-0 p-1 bg-gradient-to-t from-black/60 to-transparent">
-              <p className="text-white text-[8px] line-clamp-1 px-1">{item.year}</p>
+              <p className="text-white text-[7px] line-clamp-1 px-1">{item.year}</p>
             </div>
           </>
         )}
@@ -93,20 +93,23 @@ const MobileOptimizedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
       animationFrame = requestAnimationFrame(animateLoop);
     };
     animationFrame = requestAnimationFrame(animateLoop);
-    
+
     return () => cancelAnimationFrame(animationFrame);
   }, []);
 
-  // Mobile-optimized SVG paths
-  const svgHeight = 1000;
+  // Mobile-optimized SVG paths - adjust height based on number of items to ensure scrolling works
+  const itemsPerPath = Math.ceil(items.length / 5); // 5 paths
+  const baseHeight = 500; // Reduced base height
+  const dynamicHeight = Math.max(baseHeight, 35 * itemsPerPath); // Reduced from 40 to 35 per item to make it more compact
+  const svgHeight = Math.min(dynamicHeight, 1000); // Cap at 1000 to prevent excessive height
   const svgWidth = 800;
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'visible' }}>
+    <div style={{ position: 'relative', width: '100%', height: 'auto', overflow: 'visible' }}>
       <svg
         style={{
           width: '100%',
-          height: '100%',
+          height: 'auto', // Changed from '100%' to 'auto' to allow natural height
           position: 'absolute',
           top: 0,
           left: 0,
@@ -119,27 +122,27 @@ const MobileOptimizedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
         {/* Mobile optimized paths - more compressed and closer together */}
         <path
           ref={el => pathRefs.current[0] = el}
-          d="M 20 100 C 300 20, 500 180, 780 100 C 500 20, 300 180, 20 100 Z"
+          d="M 20 80 C 250 20, 550 140, 780 80 C 550 20, 250 140, 20 80 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[1] = el}
-          d="M 20 220 C 250 150, 550 290, 780 220 C 550 150, 250 290, 20 220 Z"
+          d="M 20 180 C 200 120, 600 240, 780 180 C 600 120, 200 240, 20 180 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[2] = el}
-          d="M 20 340 C 400 280, 400 400, 780 340 C 400 280, 400 400, 20 340 Z"
+          d="M 20 280 C 350 240, 450 320, 780 280 C 450 240, 350 320, 20 280 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[3] = el}
-          d="M 20 460 C 250 390, 550 530, 780 460 C 550 390, 250 530, 20 460 Z"
+          d="M 20 380 C 200 320, 600 440, 780 380 C 600 320, 200 440, 20 380 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[4] = el}
-          d="M 20 580 C 350 520, 450 640, 780 580 C 450 520, 350 640, 20 580 Z"
+          d="M 20 480 C 300 440, 500 520, 780 480 C 500 440, 300 520, 20 480 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
       </svg>
