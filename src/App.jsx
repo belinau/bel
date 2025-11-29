@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, memo } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform, animate, useAnimationFrame } from 'framer-motion';
 import { X, ExternalLink, Calendar, MapPin, Film, Users, BookOpen } from 'lucide-react';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
@@ -13,39 +13,21 @@ const PortfolioArchive = () => {
   const [lang, setLang] = useState('en');
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
-  const [isSelecting, setIsSelecting] = useState(false);
   const containerRef = useRef(null);
-  const pathRefs = useRef([]);
   const modalRef = useRef(null); // Create a ref for the modal's scrollable element
 
-  const [animationOffset, setAnimationOffset] = useState(0);
   const t = translations[lang];
 
-  useEffect(() => {
-    let animationFrame;
-    const animateLoop = () => {
-      setAnimationOffset(prev => prev + 0.0005); // Controls speed
-      animationFrame = requestAnimationFrame(animateLoop);
-    };
-    animationFrame = requestAnimationFrame(animateLoop);
-
-    return () => cancelAnimationFrame(animationFrame);
-  }, []);
-
-  // Use the 'body-scroll-lock' library for a robust, cross-browser solution.
+  // Correctly implement body scroll lock.
   useEffect(() => {
     const modalElement = modalRef.current;
 
-    if (selectedItem) {
-      if (modalElement) {
-        // Disable body scroll, but allow scrolling on the modalElement.
-        disableBodyScroll(modalElement, { reserveScrollBarGap: true });
-      }
-    }
+    if (selectedItem && modalElement) {
+      // This LOCKS the scroll when the modal is open.
+      disableBodyScroll(modalElement, { reserveScrollBarGap: true });
 
-    // The cleanup function will be called when the modal closes.
-    return () => {
-      enableBodyScroll(modalElement);
+      // This UNLOCKS the scroll when the modal closes.
+      return () => enableBodyScroll(modalElement);
     }
   }, [selectedItem]);
 
@@ -141,71 +123,12 @@ const PortfolioArchive = () => {
         onMouseMove={handleMouseMove}
       >
         <div className="max-w-7xl mx-auto">
-          <div className="relative">
-            <svg
-              className="w-full"
-              viewBox="0 0 1200 1200"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              {/* Define the 3 more curved Moebius-like paths */}
-              <path
-                ref={el => pathRefs.current[0] = el}
-                d="M 20 150 C 500 -150, 700 450, 1180 150 C 700 -150, 500 450, 20 150 Z"
-                fill="none"
-                stroke="rgba(0,0,0,0.05)"
-                strokeWidth="2"
-              />
-              <path
-                ref={el => pathRefs.current[1] = el}
-                d="M 20 350 C 300 50, 900 650, 1180 350 C 900 50, 300 650, 20 350 Z"
-                fill="none"
-                stroke="rgba(0,0,0,0.05)"
-                strokeWidth="2"
-              />
-              <path
-                ref={el => pathRefs.current[2] = el}
-                d="M 20 550 C 600 300, 600 800, 1180 550 C 600 300, 600 800, 20 550 Z"
-                fill="none"
-                stroke="rgba(0,0,0,0.05)"
-                strokeWidth="2"
-              />
-              <path
-                ref={el => pathRefs.current[3] = el}
-                d="M 20 750 C 300 550, 900 950, 1180 750 C 900 550, 300 950, 20 750 Z"
-                fill="none"
-                stroke="rgba(0,0,0,0.05)"
-                strokeWidth="2"
-              />
-              <path
-                ref={el => pathRefs.current[4] = el}
-                d="M 20 950 C 500 750, 700 1250, 1180 950 C 700 750, 500 1250, 20 950 Z"
-                fill="none"
-                stroke="rgba(0,0,0,0.05)"
-                strokeWidth="2"
-              />
-            </svg>
-
-            {/* Items positioned along paths */}
-            <div className="absolute inset-0">
-            <AnimatePresence mode="popLayout">
-              {filteredItems.map((item, index) => {
-                return (
-                  <PathItem
-                    key={item.id}
-                    item={item}
-                    index={index}
-                    total={filteredItems.length}
-                    pathRefs={pathRefs}
-                    animationOffset={animationOffset}
-                    mousePos={mousePos}
-                    onSelect={setSelectedItem}
-                    getText={getText}
-                  />
-                );
-              })}
-            </AnimatePresence>
-          </div>
-          </div>
+          <AnimatedCanvas
+            items={filteredItems}
+            mousePos={mousePos}
+            onSelect={setSelectedItem}
+            getText={getText}
+          />
         </div>
       </div>
 
@@ -623,5 +546,77 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
     </motion.div>
   );
 };
+
+const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
+  const pathRefs = useRef([]);
+  const [animationOffset, setAnimationOffset] = useState(0);
+
+  useEffect(() => {
+    let animationFrame;
+    const animateLoop = () => {
+      setAnimationOffset(prev => prev + 0.0005); // Controls speed
+      animationFrame = requestAnimationFrame(animateLoop);
+    };
+    animationFrame = requestAnimationFrame(animateLoop);
+
+    return () => cancelAnimationFrame(animationFrame);
+  }, []);
+
+  return (
+    <div className="relative">
+      <svg
+        className="w-full"
+        viewBox="0 0 1200 2400"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        {/* Define the 5 paths */}
+        <path
+          ref={el => pathRefs.current[0] = el}
+          d="M 20 150 C 500 -150, 700 450, 1180 150 C 700 -150, 500 450, 20 150 Z"
+          fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
+        />
+        <path
+          ref={el => pathRefs.current[1] = el}
+          d="M 20 350 C 300 50, 900 650, 1180 350 C 900 50, 300 650, 20 350 Z"
+          fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
+        />
+        <path
+          ref={el => pathRefs.current[2] = el}
+          d="M 20 550 C 600 300, 600 800, 1180 550 C 600 300, 600 800, 20 550 Z"
+          fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
+        />
+        <path
+          ref={el => pathRefs.current[3] = el}
+          d="M 20 750 C 300 550, 900 950, 1180 750 C 900 550, 300 950, 20 750 Z"
+          fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
+        />
+        <path
+          ref={el => pathRefs.current[4] = el}
+          d="M 20 950 C 500 750, 700 1250, 1180 950 C 700 750, 500 1250, 20 950 Z"
+          fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="2"
+        />
+      </svg>
+
+      {/* Items positioned along paths */}
+      <div className="absolute inset-0">
+        <AnimatePresence mode="popLayout">
+          {items.map((item, index) => (
+            <PathItem
+              key={item.id}
+              item={item}
+              index={index}
+              total={items.length}
+              pathRefs={pathRefs}
+              animationOffset={animationOffset}
+              mousePos={mousePos}
+              onSelect={onSelect}
+              getText={getText}
+            />
+          ))}
+        </AnimatePresence>
+      </div>
+    </div>
+  );
+});
 
 export default PortfolioArchive;
