@@ -4,7 +4,7 @@
       "id": "pub1",
       "type": "publication",
       "title": { "sl": "70 let Grafičnega bienala Ljubljana: Zbornik", "en": "70 Years of the Ljubljana Biennale of Graphic Arts: A Reader" },
-      "author": { "sl": "Stefana Djokic, Kaja Kraner, Ana Sladojević, Nevenka Šivavec (avtor, urednik), Breda Škrjanec, Božidar Zrinski, Gregor Dražil (urednik)", "en": "Stefana Djokic, Kaja Kraner, Ana Sladojević, Nevenka Šivavec (author, editor), Breda Škrjanec, Božidar Zrinski, Gregor Dražil (editor)" },
+      "author": { "sl": "Stefana Djokic, Anthony Gardner, Kaja Kraner, Jennifer Noonan, André Pitol, Ana Sladojević, Nevenka Šivavec, Breda Škrjanec, Annosh Urbanke, Maja Vardjan, Božidar Zrinski, Gregor Dražil (urednik)", "en": "Stefana Djokic, Anthony Gardner, Kaja Kraner, Jennifer Noonan, André Pitol, Ana Sladojević, Nevenka Šivavec, Breda Škrjanec, Annosh Urbanke, Maja Vardjan, Božidar Zrinski, Gregor Dražil (editor)" },
       "publisher": { "sl": "MGLC", "en": "MGLC" },
       "year": 2025,
       "isbn": "978-961-7197-30-3",
@@ -58,6 +58,21 @@
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
       "publisherLink": { "sl": "https://maska.si/knjige/jasmina-zaloznik-zavzemanje-prostora/", "en": "https://maska.si/en/books/jasmina-zaloznik-taking-up-space/" }
+    },
+    {
+      "id": "pub3a",
+      "type": "publication",
+      "title": { "sl": "Iz praznine so prišli darovi kozmosa. 35. grafični bienale Ljubljana. Zbornik.", "en": "From the Void Came Gifts of Cosmos. 35th Ljubljana Biennale of Graphic Arts. A reader." },
+      "author": { "sl": "Ibrahim Mahama, Beya Othmani, kąrî’ka· chä seid’ōu, Łukasz Stanek, Gregor Dražil, Mohammad Omar Khalil, Walid Siti, Nevenka Šivavec, Mariam Elnozahy, Kodwo Eshun, Doreen Mende, Eszter Szakács, Tereza Stejskalová, Robin Riskin, Sanaz Sohrabi, Rosie Olang’; Kwasi Ohene-Ayeh, Kelvin Haizel, Patrick Nii Okanta Ankrah, Selom Kudjie, Gregor Dražil (uredniki)", "en": "Ibrahim Mahama, Beya Othmani, kąrî’ka· chä seid’ōu, Łukasz Stanek, Gregor Dražil, Mohammad Omar Khalil, Walid Siti, Nevenka Šivavec, Mariam Elnozahy, Kodwo Eshun, Doreen Mende, Eszter Szakács, Tereza Stejskalová, Robin Riskin, Sanaz Sohrabi, Rosie Olang’; Kwasi Ohene-Ayeh, Kelvin Haizel, Patrick Nii Okanta Ankrah, Selom Kudjie, Gregor Dražil (uredniki)" },
+      "publisher": { "sl": "MGLC", "en": "MGLC" },
+      "year": 2024,
+      "isbn": "?",
+      "thumbnail": "/images/void.jpg",
+      "pages": "182",
+      "languageFrom": { "sl": "angleščina", "en": "English" },
+      "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
+      "additionalInfo": { "sl": "Prevod slovenske različice zbornika, avtorice in avtorji: Eszter Szakács, Robin Riskin, Sanaz Sohrabi, Rosie Olang’ Odhiambo, Beya Othmani, kąrî’ka· chä seid’ōu, Kodwo Eshun, Doreen Mende.", "en": "Translation of Slovenian version of the reader, contributions by Eszter Szakács, Robin Riskin, Sanaz Sohrabi, Rosie Olang’ Odhiambo, Beya Othmani, kąrî’ka· chä seid’ōu, Kodwo Eshun, Doreen Mende." },
+      "publisherLink": { "sl": "https://mglc.si/sl/trgovina/artikli/527/35-graficni-bienale-ljubljana-zbornik/", "en": "https://mglc.si/en/shop/items/527/35th-ljubljana-biennale-of-graphic-arts-a-reader/" }
     },
     {
       "id": "pub4",
