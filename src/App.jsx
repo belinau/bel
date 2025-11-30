@@ -55,18 +55,45 @@ const PortfolioArchive = () => {
 
   const filteredItems = filter === 'all'
     ? allItems
-    : allItems.filter(item => {
-        if (filter === 'publications') return item.type === 'publication';
-        if (Array.isArray(item.type)) {
-          return item.type.includes(filter);
-        }
-        return item.type === filter;
-      });
+    : filter === 'other'
+      ? allItems.filter(item => {
+          // Include postmedia, exhibition, text, and any other non-publication/non-performance items
+          if (item.type === 'publication') return false;
+          if (item.type === 'performance') return false;
+
+          // Check if it's one of the known types that goes under "other"
+          const otherTypes = ['postmedia', 'exhibition', 'text'];
+          if (otherTypes.includes(item.type)) return true;
+
+          // Also check if it's an array of types that contains any of the other types
+          if (Array.isArray(item.type)) {
+            return item.type.some(type => otherTypes.includes(type));
+          }
+
+          // If it's not publication or performance and not explicitly handled, include in "other"
+          return true;
+        })
+      : allItems.filter(item => {
+          if (filter === 'publications') return item.type === 'publication';
+          if (filter === 'performance') {
+            return item.type === 'performance' ||
+                   (Array.isArray(item.type) && item.type.includes('performance'));
+          }
+
+          if (Array.isArray(item.type)) {
+            return item.type.includes(filter);
+          }
+          return item.type === filter;
+        });
 
   const categories = [
     { id: 'all', label: t.all },
     { id: 'publications', label: t.translations },
     { id: 'performance', label: t.performances },
+    { id: 'other', label: t.other || 'Other' }
+  ];
+
+  const otherCategories = [
     { id: 'postmedia', label: 'Postmedia' },
     { id: 'exhibition', label: t.exhibitions },
     { id: 'text', label: 'Text' }
@@ -81,7 +108,7 @@ const PortfolioArchive = () => {
       {/* Header */}
       <header className="sticky top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-40 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-6 flex justify-between items-center">
-          <h1 className="text-xl md:text-2xl font-light tracking-tight">{t.archive}</h1>
+          <h1 className="text-2xl md:text-4xl font-semibold tracking-wide" style={{ fontFamily: '"Playfair Display", Georgia, "Times New Roman", serif' }}>Urban Belina</h1>
           <div className="flex gap-2">
             <button
               onClick={() => setLang('en')}
@@ -248,15 +275,42 @@ const PortfolioArchive = () => {
                         </div>
                       )}
 
-                      <a
-                        href={selectedItem.publisherLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-full hover:bg-neutral-800 transition-colors"
-                      >
-                        <span>{t.viewPublisher}</span>
-                        <ExternalLink size={16} />
-                      </a>
+                      {selectedItem.publisherLink && (
+                        <a
+                          href={
+                            (() => {
+                              // Handle different possible formats of publisherLink
+                              if (typeof selectedItem.publisherLink === 'string') {
+                                // Check if the string is a proper URL with protocol
+                                if (selectedItem.publisherLink.startsWith('http')) {
+                                  return selectedItem.publisherLink;
+                                } else {
+                                  // Add https:// if no protocol is present
+                                  return `https://${selectedItem.publisherLink}`;
+                                }
+                              } else if (typeof selectedItem.publisherLink === 'object') {
+                                // Handle localized links object
+                                const link = selectedItem.publisherLink[lang] || selectedItem.publisherLink.en;
+                                if (typeof link === 'string') {
+                                  if (link.startsWith('http')) {
+                                    return link;
+                                  } else {
+                                    return `https://${link}`;
+                                  }
+                                }
+                              }
+                              // Default fallback
+                              return '#';
+                            })()
+                          }
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-full hover:bg-neutral-800 transition-colors"
+                        >
+                          <span>{t.viewPublisher}</span>
+                          <ExternalLink size={16} />
+                        </a>
+                      )}
                     </div>
                   </div>
                 ) : selectedItem.type === 'text' ? (
@@ -407,6 +461,21 @@ const PortfolioArchive = () => {
                         )}
                       </div>
 
+                      {/* Add producer link if available and not already covered elsewhere */}
+                      {selectedItem.producerLink && (
+                        <div className="mb-8">
+                          <a
+                            href={selectedItem.producerLink.startsWith('http') ? selectedItem.producerLink : `https://${selectedItem.producerLink}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-full hover:bg-neutral-800 transition-colors"
+                          >
+                            <span>{t.viewProducer}</span>
+                            <ExternalLink size={16} />
+                          </a>
+                        </div>
+                      )}
+
                       {selectedItem.media && selectedItem.media.length > 0 && (
                         <div className="mb-8">
                           <h3 className="text-sm uppercase tracking-wider text-neutral-500 mb-4 flex items-center gap-2">
@@ -436,19 +505,24 @@ const PortfolioArchive = () => {
                         <div>
                           <h3 className="text-sm uppercase tracking-wider text-neutral-500 mb-4">{t.press}</h3>
                           <div className="space-y-4">
-                            {selectedItem.press.map((item, idx) => (
-                              <a
-                                key={idx}
-                                href={item.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="block border-l-2 border-neutral-200 hover:border-neutral-400 pl-4 transition-colors group"
-                              >
-                                <p className="text-neutral-700 group-hover:text-neutral-900 text-sm">
-                                  {getText(item.text)}
-                                </p>
-                              </a>
-                            ))}
+                            {selectedItem.press.map((item, idx) => {
+                              // Ensure the URL has a proper protocol
+                              const formattedUrl = item.url.startsWith('http') ? item.url : `https://${item.url}`;
+
+                              return (
+                                <a
+                                  key={idx}
+                                  href={formattedUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="block border-l-2 border-neutral-200 hover:border-neutral-400 pl-4 transition-colors group"
+                                >
+                                  <p className="text-neutral-700 group-hover:text-neutral-900 text-sm">
+                                    {getText(item.text)}
+                                  </p>
+                                </a>
+                              )
+                            })}
                           </div>
                         </div>
                       )}

@@ -58,12 +58,17 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
     >
       <div className="relative w-full h-full rounded-sm overflow-hidden shadow-sm">
         {item.type === 'text' ? (
-          <div className="flex items-center justify-center w-full h-full bg-neutral-100">
-            <svg className="w-1/2 h-1/2 text-neutral-400" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
-            </svg>
-          </div>
-        ) : (
+          <>
+            <div className="flex items-center justify-center w-full h-full bg-neutral-100">
+              <svg className="w-1/2 h-1/2 text-neutral-400" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+              </svg>
+            </div>
+            <div className="absolute bottom-0 left-0 right-0 p-1 bg-gradient-to-t from-black/60 to-transparent">
+              <p className="text-white text-[6px] line-clamp-1 px-1">{getText(item.title)}</p>
+            </div>
+          </>
+        ) : item.type === 'publication' ? (
           <>
             <img
               src={item.thumbnail || '/images/base.jpg'}
@@ -73,6 +78,18 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
             />
             <div className="absolute bottom-0 left-0 right-0 p-1 bg-gradient-to-t from-black/60 to-transparent">
               <p className="text-white text-[7px] line-clamp-1 px-1">{item.year}</p>
+            </div>
+          </>
+        ) : (
+          <>
+            <img
+              src={item.thumbnail || '/images/base.jpg'}
+              alt={getText(item.title)}
+              className="w-full h-full object-cover"
+              onError={(e) => { e.target.src = '/images/base.jpg'; }}
+            />
+            <div className="absolute bottom-0 left-0 right-0 p-1 bg-gradient-to-t from-black/60 to-transparent">
+              <p className="text-white text-[6px] line-clamp-1 px-1">{getText(item.title)}</p>
             </div>
           </>
         )}

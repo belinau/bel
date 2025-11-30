@@ -13,7 +13,7 @@
       "pages": "592",
       "languageFrom": { "sl": "angleščina, slovenščina", "en": "English, Slovenian" },
       "languageTo": { "sl": "slovenščina, angleščina", "en": "Slovenian, English" },
-      "publisherLink": { "sl": "https://www.mglc.si/si/trgovina/102/70-let-graficnega-bienala-ljubljana-zbornik/", "en": "https://www.mglc.si/en/shop/102/70-years-of-the-ljubljana-biennale-of-graphic-arts-a-reader/" }
+      "publisherLink": { "sl": "https://mglc.si/sl/trgovina/artikli/614/70-let-graficnega-bienala-ljubljana-zbornik/", "en": "https://mglc.si/en/shop/items/614/70-years-of-the-ljubljana-biennale-of-graphic-arts-a-reader/" }
     },
     {
       "id": "pub2",
@@ -28,7 +28,7 @@
       "pages": "80",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.mglc.si/si/trgovina/101/victor-vasarely-v-odmevu/", "en": "https://www.mglc.si/en/shop/101/victor-vasarely-in-echo/" }
+      "publisherLink": { "sl": "https://mglc.si/sl/trgovina/artikli/597/victor-vasarely-v-odmevu/", "en": "https://mglc.si/en/shop/items/597/victor-vasarely-in-the-echo/" }
     },
     {
       "id": "pub2a",
@@ -42,17 +42,17 @@
       "pages": "36",
       "languageFrom": { "sl": "angleščina, italijanščina", "en": "English, Italian" },
       "languageTo": { "sl": "angleščina, italijanščina", "en": "English, Italian" },
-      "publisherLink": { "sl": "", "en": "" }
+      "publisherLink": { "sl": "https://plus-legacy.cobiss.net/cobiss/si/sl/bib/252602627", "en": "https://plus-legacy.cobiss.net/cobiss/si/en/bib/252602627" }
     },
     {
       "id": "pub3",
       "type": "publication",
-      "title": { "sl": "Zavzemanje prostora: Nove izvedbene umetniške prakse v Jugoslaviji", "en": "Claiming of Space: New Performative Art Practices in Yugoslavia" },
+      "title": { "sl": "Zavzemanje prostora. Nove izvedbene umetniške prakse v Jugoslaviji", "en": "Claiming of Space. New Performative Art Practices in Yugoslavia" },
       "author": { "sl": "Jasmina Založnik", "en": "Jasmina Založnik" },
       "publisher": { "sl": "Maska", "en": "Maska" },
       "year": 2024,
       "isbn": "978-961-6572-72-9",
-      "additionalInfo": { "sl": "Prevod v slovenščino iz angleškega izvirnika.", "en": "Translation into Slovenian from the English original." },
+      "additionalInfo": { "sl": "", "en": "" },
       "thumbnail": "/images/Zavzemanje prostora.png",
       "pages": "257",
       "languageFrom": { "sl": "angleščina", "en": "English" },
@@ -69,7 +69,7 @@
       "pages": "256",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://maska.si/knjige/bojana-kunst-the-life-of-art-transversal-lines-of-care-v-pripravi/", "en": "https://maska.si/en/books/bojana-kunst-the-life-of-art-transversal-lines-of-care-forthcoming/" }
+      "publisherLink": { "sl": "https://maska.si/knjiga/bojana-kunst-zivljenje-umetnosti/", "en": "https://maska.si/en/book/bojana-kunst-zivljenje-umetnosti/" }
     },
     {
       "id": "pub5",
@@ -97,7 +97,7 @@
       "pages": "117",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/1075/tao-g-vrhovec-sambolec-brati-branje/", "en": "https://mgml.si/en/shop/product/1075/tao-g-vrhovec-sambolec-reading-reading/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/21/", "en": "https://cukrarna.art/en/shop/item/21/" }
     },
     {
       "id": "pub6",
@@ -111,7 +111,7 @@
       "pages": "287",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://ndaslovenia.org/v-casu-onkraj-casa/", "en": "https://ndaslovenia.org/within-time-beyond-time/" }
+      "publisherLink": { "sl": "https://plus-legacy.cobiss.net/cobiss/si/sl/bib/129861891", "en": "https://plus-legacy.cobiss.net/cobiss/si/en/bib/129861891" }
     },
     {
       "id": "pub7",
@@ -120,12 +120,12 @@
       "author": { "sl": "Nika Arhar (urednik)", "en": "Nika Arhar (editor)" },
       "publisher": { "sl": "Nomad Dance Academy Slovenija", "en": "Nomad Dance Academy Slovenia" },
       "year": 2022,
-      "additionalInfo": { "sl": "Zbornik ob deseti obletnici, prevod v slovenščino", "en": "A reader on the tenth anniversary, translation into Slovenian." },
+      "additionalInfo": { "sl": "Zbornik ob deseti obletnici CoFestivala", "en": "A reader on the tenth anniversary of CoFestival." },
       "thumbnail": "/images/V času, onkraj časa.jpeg",
       "pages": "287",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://ndaslovenia.org/v-casu-onkraj-casa/", "en": "https://ndaslovenia.org/within-time-beyond-time/" }
+      "publisherLink": { "sl": "https://plus-legacy.cobiss.net/cobiss/si/sl/bib/129982211", "en": "https://plus-legacy.cobiss.net/cobiss/si/en/bib/129982211" }
     },
     {
       "id": "pub8",
@@ -139,21 +139,21 @@
       "pages": "345",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/933/vracanje-pogleda/", "en": "https://mgml.si/en/shop/product/933/returning-the-gaze/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/6/", "en": "https://cukrarna.art/en/shop/item/6/" }
     },
     {
       "id": "pub9",
       "type": "publication",
-      "title": { "sl": "Vračanje pogleda", "en": "Returning the Gaze" },
+      "title": { "sl": "Vračanje pogleda EN", "en": "Returning the Gaze" },
       "author": { "sl": "Alenka Gregorič (urednik)", "en": "Alenka Gregorič (editor)" },
       "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
       "year": 2022,
       "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino.", "en": "Exhibition catalogue, co-translator into English" },
-      "thumbnail": "/images/Vračanje pogleda.jpeg",
+      "thumbnail": "/images/returning.jpg",
       "pages": "345",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/933/vracanje-pogleda/", "en": "https://mgml.si/en/shop/product/933/returning-the-gaze/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/6/", "en": "https://cukrarna.art/en/shop/item/6/" }
     },
     {
       "id": "pub10",
@@ -167,7 +167,7 @@
       "pages": "99",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/932/marusa-sagadin-mokre-noge/", "en": "https://mgml.si/en/shop/product/932/marusa-sagadin-wet-feet/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/10/", "en": "https://cukrarna.art/en/shop/item/10/" }
     },
     {
       "id": "pub11",
@@ -176,12 +176,12 @@
       "author": { "sl": "Meta Grgurevič (umetnik, intervjuvanec), Alenka Trebušak (urednik, intervjuvanec)", "en": "Meta Grgurevič (artist, interviewee), Alenka Trebušak (editor, interviewer)" },
       "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
       "year": 2022,
-      "additionalInfo": { "sl": "Katalog razstave, prevod v angleščino", "en": "Exhibition catalogue, co-translator into English." },
+      "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino", "en": "Exhibition catalogue, co-translator into English." },
       "thumbnail": "/images/Praskanje za zlatom.jpeg",
       "pages": "99",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/931/meta-grgurevic-praskanje-za-zlatom/", "en": "https://mgml.si/en/shop/product/931/meta-grgurevic-scraping-for-gold/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/14/", "en": "https://cukrarna.art/en/shop/item/14/" }
     },
     {
       "id": "pub12",
@@ -193,9 +193,9 @@
       "additionalInfo": { "sl": "Katalog razstave, soprevajalec v angleščino", "en": "Exhibition catalogue, co-translator into English." },
       "thumbnail": "/images/čudovitost.jpeg",
       "pages": "225",
-      "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
-      "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/821/cudovitost-spomina/", "en": "https://mgml.si/en/shop/product/821/the-wonderfulness-of-memory/" }
+      "languageFrom": { "sl": "slovenščina, angleščina", "en": "Slovenian, English"},
+      "languageTo": { "sl": "angleščina, slovenščina", "en": "English, Slovenian" },
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/3/", "en": "https://cukrarna.art/en/shop/item/3/" }
     },
     {
       "id": "pub13",
@@ -209,7 +209,7 @@
       "pages": "219",
       "languageFrom": { "sl": "angleščina, slovenščina", "en": "English, Slovenian" },
       "languageTo": { "sl": "slovenščina, angleščina", "en": "Slovenian, English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/723/ko-gesta-postane-dogodek/", "en": "https://mgml.si/en/shop/product/723/when-gesture-becomes-event/" }
+      "publisherLink": { "sl": "https://mgml.si/sl/mestna-galerija/publikacije/119/ko-gesta-postane-dogodek/", "en": "https://mgml.si/en/city-art-gallery/publications/119/when-gesture-becomes-event/" }
     },
     {
       "id": "pub14",
@@ -223,7 +223,7 @@
       "pages": "147",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/624/zivi-objekt/", "en": "https://mgml.si/en/shop/product/624/living-object/" }
+      "publisherLink": { "sl": "hhttps://mgml.si/sl/mestna-galerija/publikacije/118/zivi-objekt/", "en": "https://mgml.si/en/city-art-gallery/publications/118/living-object/" }
     },
     {
       "id": "pub15",
@@ -237,7 +237,7 @@
       "pages": "133",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.mglc.si/si/trgovina/57/zbornik-prispevkov-s-simpozija-ob-razstavi-japonska-jugoslavija-graficni-bienale-dokumenti-sodelovanja/", "en": "https://www.mglc.si/en/shop/57/proceedings-from-the-symposium-accompanying-the-exhibition-japan-yugoslavia-the-biennale-of-graphic-arts-documents-of-cooperation/" }
+      "publisherLink": { "sl": "https://mglc.si/sl/publikacije/1/simpozij-ob-razstavi-japonska-jugoslavija-graficni-bienale-dokumenti-sodelovanja/", "en": "https://mglc.si/sl/publikacije/1/simpozij-ob-razstavi-japonska-jugoslavija-graficni-bienale-dokumenti-sodelovanja/" }
     },
     {
       "id": "pub16",
@@ -265,7 +265,7 @@
       "pages": "287",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://emanat.si/si/produkcija/mabel-elsworth-todd--mislece-telo/", "en": "https://emanat.si/en/production/mabel-elsworth-todd--the-thinking-body/" }
+      "publisherLink": { "sl": "https://emanat.si/si/založništvo/mabel-e--todd--misleče-telo/", "en": "https://emanat.si/en/publishing/mabel-e--todd--the-thinking-body/" }
     },
     {
       "id": "pub18",
@@ -279,7 +279,7 @@
       "pages": "37",
       "languageFrom": { "sl": "japonščina", "en": "Japanese" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.zrakogled.org/moja-hirosima/", "en": "https://www.zrakogled.org/my-hiroshima/" }
+      "publisherLink": { "sl": "https://zrakogled.si/junko-morimoto-moja-hirosima/", "en": "https://zrakogled.si/junko-morimoto-moja-hirosima/" }
     },
     {
       "id": "pub19",
@@ -293,7 +293,7 @@
       "pages": "313",
       "languageFrom": { "sl": "srbščina", "en": "Serbian" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.zrakogled.org/dantejev-trg/", "en": "https://www.zrakogled.org/dantejev-trg/" }
+      "publisherLink": { "sl": "https://zrakogled.si/dantejev-trg/", "en": "https://zrakogled.si/dantejev-trg/" }
     },
     {
       "id": "pub20",
@@ -307,7 +307,7 @@
       "pages": "267",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.zrakogled.org/skok-malteskih-delfinov/", "en": "https://www.zrakogled.org/skok-malteskih-delfinov/" }
+      "publisherLink": { "sl": "https://zrakogled.si/1266/", "en": "https://zrakogled.si/1266/" }
     },
     {
       "id": "pub21",
@@ -321,7 +321,7 @@
       "pages": "348",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.skuc.org/lambda/christopher-whyte-gejevski-dekameron/", "en": "https://www.skuc.org/lambda/christopher-whyte-gejevski-dekameron/" }
+      "publisherLink": { "sl": "https://skuc.org/Lambda/christopher-whyte-gejevski-dekameron", "en": "https://skuc.org/Lambda/christopher-whyte-gejevski-dekameron" }
     },
     {
       "id": "pub23",
@@ -332,17 +332,17 @@
       "year": 2012,
       "isbn": "978-961-93298-0-1",
       "additionalInfo": { "sl": "Galerija Škuc, 3.-19. 4. 2012", "en": "Škuc Gallery, 3.-19. 4. 2012" },
-      "thumbnail": "/images/Real_Time_Settings_for_Ner(d_ve)s_cover.jpg",
+      "thumbnail": "/images/real.jpg",
       "pages": "46",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://wiki.ljudmila.org/Real_Time_Settings_for_Ner(d/ve)s", "en": "https://wiki.ljudmila.org/Real_Time_Settings_for_Ner(d/ve)s" }
+      "publisherLink": { "sl": "https://wiki.ljudmila.org/Za_živce_v_realnem_času", "en": "https://wiki.ljudmila.org/Real_Time_Settings_for_Ner(d/ve)s" }
     },
     {
       "id": "pub24",
       "type": "publication",
       "title": { "sl": "Redeye: a New York - Ljubljana translation think tank", "en": "Redeye: a New York - Ljubljana translation think tank" },
-      "author": { "sl": "Urban Belina (urednik, prevajalec)", "en": "Urban Belina (editor, translator)" },
+      "author": { "sl": "Urban Belina (prevajalec)", "en": "Urban Belina (translator)" },
       "publisher": { "sl": "Javni sklad Republike Slovenije za kulturne dejavnosti", "en": "Republic of Slovenia Public Fund for Cultural Activities" },
       "year": 2006,
       "isbn": "978-961-6141-40-6",
@@ -351,7 +351,7 @@
       "pages": "151",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://www.jskd.si/literatura/zalozba_jssk/mentor/posebna_izdaja_redeye_2006.htm", "en": "https://www.jskd.si/literatura/zalozba_jssk/mentor/posebna_izdaja_redeye_2006.htm" }
+      "publisherLink": { "sl": "https://knjigarna.jskd.si/preglej-na-glas-komplet-z-angleskim-prevodom", "en": "https://knjigarna.jskd.si/preglej-na-glas-komplet-z-angleskim-prevodom" }
     },
     {
       "id": "pub27",
@@ -366,7 +366,7 @@
       "pages": "101",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/galerija-vzigalica/dogodki/501/predstavitev-kataloga-krmiljenje-copica/", "en": "https://mgml.si/en/match-gallery/events/501/presentation-of-the-catalogue-steering-the-brush/" }
+      "publisherLink": { "sl": "https://shop.mgml.si/product/krmiljenje-copica-dominik-mahnic/", "en": "https://shop.mgml.si/en/product/dominik-mahnic-steering-the-brush/" }
     },
     {
       "id": "pub28",
@@ -381,7 +381,7 @@
       "pages": "108",
       "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/1155/tarek-atoui-stojece-valovanje/", "en": "https://mgml.si/en/shop/product/1155/tarek-atoui-standing-waves/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/30/", "en": "https://cukrarna.art/en/shop/item/30/" }
     },
     {
       "id": "pub31",
@@ -393,10 +393,10 @@
       "isbn": "978-961-95494-6-9",
       "additionalInfo": { "sl": "Katalog razstave", "en": "Exhibition catalogue" },
       "thumbnail": "/images/zapiski z razstave.jpeg",
-      "pages": "122",
+      "pages": "126",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "https://mgml.si/sl/trgovina/izdelek/872/rosa-barba-zapiski-z-razstave/", "en": "https://mgml.si/en/shop/product/872/rosa-barba-exhibition-notes/" }
+      "publisherLink": { "sl": "https://cukrarna.art/sl/trgovina/artikel/17/", "en": "https://cukrarna.art/en/shop/item/17/" }
     },
     {
       "id": "pub32",
@@ -411,7 +411,7 @@
       "pages": "161",
       "languageFrom": { "sl": "slovenščina", "en": "Slovenian" },
       "languageTo": { "sl": "angleščina", "en": "English" },
-      "publisherLink": { "sl": "", "en": "" }
+      "publisherLink": { "sl": "https://plus-legacy.cobiss.net/cobiss/si/sl/bib/52863235", "en": "https://plus-legacy.cobiss.net/cobiss/si/en/bib/52863235" }
     }
       ],
   "projects": [
