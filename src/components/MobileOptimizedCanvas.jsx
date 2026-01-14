@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef, memo } from 'react';
-import { motion, AnimatePresence, useMotionValue, useTransform, useAnimationFrame } from 'framer-motion';
+import React, { useRef, memo } from 'react';
+import { motion, AnimatePresence, useMotionValue, useTransform, useAnimationFrame, useScroll } from 'framer-motion';
 
 // Mobile-optimized path item component
-const MobilePathItem = React.forwardRef(({ item, index, total, pathRefs, animationOffset, mousePos, onSelect, getText }, ref) => {
+const MobilePathItem = React.forwardRef(({ item, index, total, pathRefs, animationOffset, onSelect, getText }, ref) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -17,19 +17,13 @@ const MobilePathItem = React.forwardRef(({ item, index, total, pathRefs, animati
 
     const totalLength = path.getTotalLength();
     const baseProgress = itemIndexOnPath / itemsOnThisPath;
-    const animatedProgress = (baseProgress + animationOffset) % 1;
+    // If animationOffset is a motion value, we need to get its value.
+    const offset = typeof animationOffset === 'number' ? animationOffset : animationOffset.get();
+    const animatedProgress = (baseProgress + offset) % 1;
     const point = path.getPointAtLength(animatedProgress * totalLength);
 
-    const distX = mousePos.x - point.x;
-    const distY = mousePos.y - point.y;
-    const dist = Math.sqrt(distX * distX + distY * distY);
-    const influence = Math.max(0, 1 - dist / 150) * 0.1; // Reduced influence for mobile
-
-    const newX = point.x + distX * influence;
-    const newY = point.y + distY * influence;
-
-    x.set(newX);
-    y.set(newY);
+    x.set(point.x);
+    y.set(point.y);
   });
 
   // Even smaller dimensions for mobile
@@ -100,25 +94,20 @@ const MobilePathItem = React.forwardRef(({ item, index, total, pathRefs, animati
 });
 
 // Mobile-optimized canvas component
-const MobileOptimizedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
+const MobileOptimizedCanvas = memo(({ items, onSelect, getText, containerRef }) => {
   const pathRefs = useRef([]);
 
-  if (!items || items.length === 0 || !mousePos) {
+  if (!items || items.length === 0) {
     return null;
   }
 
-  const [animationOffset, setAnimationOffset] = useState(0);
+  // Use the useScroll hook to get scroll progress from the parent container.
+  const { scrollYProgress } = useScroll({ container: containerRef });
 
-  useEffect(() => {
-    let animationFrame;
-    const animateLoop = () => {
-      setAnimationOffset(prev => prev + 0.0008); // Slightly faster animation for mobile
-      animationFrame = requestAnimationFrame(animateLoop);
-    };
-    animationFrame = requestAnimationFrame(animateLoop);
-
-    return () => cancelAnimationFrame(animationFrame);
-  }, []);
+  // Transform the scroll progress (a value from 0 to 1) into a larger number
+  // to create a more noticeable animation effect as the user scrolls.
+  // Here, scrolling from top to bottom will cycle the animation 3 times.
+  const animationOffset = useTransform(scrollYProgress, [0, 1], [0, 3]);
 
   // Mobile-optimized SVG paths - adjust height based on number of items to ensure scrolling works
   const itemsPerPath = Math.ceil(items.length / 5); // 5 paths
@@ -128,11 +117,11 @@ const MobileOptimizedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
   const svgWidth = 800;
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: 'auto', overflow: 'visible' }}>
+    <div style={{ position: 'relative', width: '100%', height: `${svgHeight}px`, overflow: 'hidden' }}>
       <svg
         style={{
           width: '100%',
-          height: 'auto', // Changed from '100%' to 'auto' to allow natural height
+          height: '100%',
           position: 'absolute',
           top: 0,
           left: 0,
@@ -180,7 +169,6 @@ const MobileOptimizedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
               total={items.length}
               pathRefs={pathRefs}
               animationOffset={animationOffset}
-              mousePos={mousePos}
               onSelect={onSelect}
               getText={getText}
             />
