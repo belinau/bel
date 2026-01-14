@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, memo } from 'react';
+import React, { useState, useEffect, useRef, memo, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform, useAnimationFrame } from 'framer-motion';
 import { X, ExternalLink, Calendar, MapPin, Film, Users, BookOpen } from 'lucide-react';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
@@ -6,13 +6,13 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import translations from './translations.json';
 import sampleData from './data.json';
 import MobileOptimizedCanvas from './components/MobileOptimizedCanvas';
+import NameCloud from './NameCloud.jsx';
+import { parseNames } from './nameParser.js';
 
 const PortfolioArchive = () => {
   const [filter, setFilter] = useState('all');
   const [selectedItem, setSelectedItem] = useState(null);
   const [lang, setLang] = useState('en');
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [isHovering, setIsHovering] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef(null);
   const modalRef = useRef(null);
@@ -41,50 +41,49 @@ const PortfolioArchive = () => {
     }
   }, [selectedItem]);
 
-  const handleMouseMove = (e) => {
-    if (containerRef.current) {
-      const rect = containerRef.current.getBoundingClientRect();
-      setMousePos({
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top
-      });
-    }
-  };
+  const allItems = useMemo(() => [...sampleData.publications, ...sampleData.projects, ...sampleData.texts || []], []);
 
-  const allItems = [...sampleData.publications, ...sampleData.projects, ...sampleData.texts || []];
+  const getText = useCallback((field) => {
+    if (!field) return '';
+    return typeof field === 'object' && field !== null ? field[lang] || field.en : field;
+  }, [lang]);
 
-  const filteredItems = filter === 'all'
-    ? allItems
-    : filter === 'other'
-      ? allItems.filter(item => {
+  const filteredItems = useMemo(() => {
+    if (filter === 'all') return allItems;
+
+    if (filter === 'other') {
+      return allItems.filter(item => {
           // Include postmedia, exhibition, text, and any other non-publication/non-performance items
           if (item.type === 'publication') return false;
           if (item.type === 'performance') return false;
 
           // Check if it's one of the known types that goes under "other"
           const otherTypes = ['postmedia', 'exhibition', 'text'];
-          if (otherTypes.includes(item.type)) return true;
+          if (item.type && otherTypes.includes(item.type)) return true;
 
           // Also check if it's an array of types that contains any of the other types
-          if (Array.isArray(item.type)) {
+          if (Array.isArray(item.type) && item.type) {
             return item.type.some(type => otherTypes.includes(type));
           }
 
           // If it's not publication or performance and not explicitly handled, include in "other"
           return true;
-        })
-      : allItems.filter(item => {
+        });
+    }
+
+    return allItems.filter(item => {
           if (filter === 'publications') return item.type === 'publication';
           if (filter === 'performance') {
             return item.type === 'performance' ||
                    (Array.isArray(item.type) && item.type.includes('performance'));
           }
 
-          if (Array.isArray(item.type)) {
+          if (Array.isArray(item.type) && item.type) {
             return item.type.includes(filter);
           }
           return item.type === filter;
         });
+  }, [filter, allItems]);
 
   const categories = [
     { id: 'all', label: t.all },
@@ -93,22 +92,28 @@ const PortfolioArchive = () => {
     { id: 'other', label: t.other || 'Other' }
   ];
 
-  const otherCategories = [
-    { id: 'postmedia', label: 'Postmedia' },
-    { id: 'exhibition', label: t.exhibitions },
-    { id: 'text', label: 'Text' }
-  ];
+  const publicationItems = useMemo(() => sampleData.publications, []);
 
-  const getText = (field) => {
-    return typeof field === 'object' ? field[lang] : field;
-  };
+  const otherItems = useMemo(() => {
+    return allItems.filter(item => {
+      if (item.type === 'publication' || item.type === 'performance') return false;
+      if (Array.isArray(item.type) && item.type.includes('performance')) return false;
+      return true;
+    });
+  }, [allItems]);
+
+  const performanceItems = useMemo(() => {
+    return allItems.filter(item =>
+      item.type === 'performance' || (Array.isArray(item.type) && item.type.includes('performance'))
+    );
+  }, [allItems]);
 
   return (
     <div className="min-h-screen bg-neutral-50" style={{ overflow: 'visible' }}>
       {/* Header */}
       <header className="sticky top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-40 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 md:py-6 flex justify-between items-center">
-          <h1 className="text-2xl md:text-4xl font-semibold tracking-wide" style={{ fontFamily: '"Playfair Display", Georgia, "Times New Roman", serif' }}>Urban Belina</h1>
+          <h1 className="text-xl md:text-3xl font-semibold tracking-wide" style={{ fontFamily: '"Trocchi", serif' }}>Urban Belina</h1>
           <div className="flex gap-2">
             <button
               onClick={() => setLang('en')}
@@ -160,7 +165,6 @@ const PortfolioArchive = () => {
           touchAction: isMobile ? 'pan-y' : 'auto',
           position: 'relative'
         }}
-        onMouseMove={handleMouseMove}
       >
         <div className={isMobile ? "max-w-full mx-0" : "max-w-7xl mx-auto"} style={{
           position: isMobile ? 'static' : 'relative',
@@ -170,14 +174,17 @@ const PortfolioArchive = () => {
         }}>
           <AnimatedCanvas
             items={filteredItems}
-            mousePos={mousePos}
+            containerRef={containerRef}
             onSelect={setSelectedItem}
             getText={getText}
             isMobile={isMobile}
           />
         </div>
       </div>
-
+      
+      {filter === 'publications' && <NameCloud items={publicationItems} lang={lang} />}
+      {filter === 'other' && <NameCloud items={otherItems} lang={lang} />}
+      {filter === 'performance' && <NameCloud items={performanceItems} lang={lang} />}
       {/* Footer */}
       <footer className="bg-neutral-100 border-t border-neutral-200 mt-20">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-6 text-center text-xs text-neutral-500">
@@ -546,11 +553,25 @@ const SafeEmail = ({ user, host, children }) => {
   );
 };
 
-const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onSelect, getText }) => {
+const PathItem = React.forwardRef(({ item, index, total, pathRefs, animationOffset, containerRef, onSelect, getText }, ref) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
+  const mousePos = useMotionValue({ x: 0, y: 0 });
 
   useAnimationFrame(() => {
+    const handleMouseMove = (e) => {
+      if (containerRef.current) {
+        const rect = containerRef.current.getBoundingClientRect();
+        mousePos.set({
+          x: e.clientX - rect.left,
+          y: e.clientY - rect.top
+        });
+      }
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+
+    const currentMousePos = mousePos.get();
     const pathCount = 5;
     const pathIndex = index % pathCount;
     const path = pathRefs.current[pathIndex];
@@ -564,8 +585,8 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
     const animatedProgress = (baseProgress + animationOffset) % 1;
     const point = path.getPointAtLength(animatedProgress * totalLength);
 
-    const distX = mousePos.x - point.x;
-    const distY = mousePos.y - point.y;
+    const distX = currentMousePos.x - point.x;
+    const distY = currentMousePos.y - point.y;
     const dist = Math.sqrt(distX * distX + distY * distY);
     const influence = Math.max(0, 1 - dist / 200) * 0.15;
 
@@ -574,6 +595,8 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
 
     x.set(newX);
     y.set(newY);
+
+    return () => window.removeEventListener('mousemove', handleMouseMove);
   });
 
   const isPublication = item.type === 'publication';
@@ -581,6 +604,7 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
 
   return (
     <motion.div
+      ref={ref}
       layout
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
@@ -629,15 +653,15 @@ const PathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onS
       </div>
     </motion.div>
   );
-};
+});
 
-const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) => {
+const AnimatedCanvas = memo(({ items, containerRef, onSelect, getText, isMobile }) => {
   // Use the mobile-optimized canvas for mobile view
   if (isMobile) {
     return (
       <MobileOptimizedCanvas
         items={items}
-        mousePos={mousePos}
+        containerRef={containerRef}
         onSelect={onSelect}
         getText={getText}
       />
@@ -714,7 +738,7 @@ const AnimatedCanvas = memo(({ items, mousePos, onSelect, getText, isMobile }) =
               total={items.length}
               pathRefs={pathRefs}
               animationOffset={animationOffset}
-              mousePos={mousePos}
+              containerRef={containerRef}
               onSelect={onSelect}
               getText={getText}
             />
