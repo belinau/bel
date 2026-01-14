@@ -114,7 +114,7 @@ const MobileOptimizedCanvas = memo(({ items, onSelect, getText, containerRef }) 
   const baseHeight = 500; // Reduced base height
   const dynamicHeight = Math.max(baseHeight, 35 * itemsPerPath); // Reduced from 40 to 35 per item to make it more compact
   const svgHeight = Math.min(dynamicHeight, 1000); // Cap at 1000 to prevent excessive height
-  const svgWidth = 800;
+  const svgWidth = 400; // Halved from 800 for narrower mobile display
 
   return (
     <div style={{ position: 'relative', width: '100%', height: `${svgHeight}px`, overflow: 'hidden' }}>
@@ -134,27 +134,27 @@ const MobileOptimizedCanvas = memo(({ items, onSelect, getText, containerRef }) 
         {/* Mobile optimized paths - more compressed and closer together */}
         <path
           ref={el => pathRefs.current[0] = el}
-          d="M 20 80 C 250 20, 550 140, 780 80 C 550 20, 250 140, 20 80 Z"
+          d="M 20 80 C 130 20, 270 140, 380 80 C 270 20, 130 140, 20 80 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[1] = el}
-          d="M 20 180 C 200 120, 600 240, 780 180 C 600 120, 200 240, 20 180 Z"
+          d="M 20 180 C 105 120, 295 240, 380 180 C 295 120, 105 240, 20 180 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[2] = el}
-          d="M 20 280 C 350 240, 450 320, 780 280 C 450 240, 350 320, 20 280 Z"
+          d="M 20 280 C 175 240, 225 320, 380 280 C 225 240, 175 320, 20 280 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[3] = el}
-          d="M 20 380 C 200 320, 600 440, 780 380 C 600 320, 200 440, 20 380 Z"
+          d="M 20 380 C 105 320, 295 440, 380 380 C 295 320, 105 440, 20 380 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
         <path
           ref={el => pathRefs.current[4] = el}
-          d="M 20 480 C 300 440, 500 520, 780 480 C 500 440, 300 520, 20 480 Z"
+          d="M 20 480 C 155 440, 250 520, 380 480 C 250 440, 155 520, 20 480 Z"
           fill="none" stroke="rgba(0,0,0,0.05)" strokeWidth="1.5"
         />
       </svg>
