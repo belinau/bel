@@ -7,6 +7,7 @@
       "author": { "sl": "Stefana Djokic, Anthony Gardner, Kaja Kraner, Jennifer Noonan, André Pitol, Ana Sladojević, Nevenka Šivavec, Breda Škrjanec, Annosh Urbanke, Maja Vardjan, Božidar Zrinski, Gregor Dražil (urednik)", "en": "Stefana Djokic, Anthony Gardner, Kaja Kraner, Jennifer Noonan, André Pitol, Ana Sladojević, Nevenka Šivavec, Breda Škrjanec, Annosh Urbanke, Maja Vardjan, Božidar Zrinski, Gregor Dražil (editor)" },
       "publisher": { "sl": "MGLC", "en": "MGLC" },
       "year": 2025,
+      "exclude": ["André Pitol"],
       "isbn": "978-961-7197-30-3",
       "additionalInfo": { "sl": "Prevod vseh avtorjev razen Pitola v slovenščino ali angleščino.", "en": "Translation of all contributors apart from Pitol into English and Slovenian. Reader, dedicated to the 70th anniversary of the Ljubljana Biennale of Graphic Arts, is the principal publication with which the International Centre of Graphic Arts (MGLC) marked the Biennale's jubilee year. Its purpose is to complement the existing body of literature on the Biennale and to encourage new ways of reflecting on this enduring event – its past, its present, and its future. The authors of the texts place the Biennale within broader theoretical contexts, draw attention to pivotal events and significant figures, and trace the transformations in the exhibition's development from 1955 to its most recent editions. Alongside the essays, two further elements form an essential part of the publication: the visual material, which documents events at and around the Biennale exhibitions, and the chapter Biennale in Infographics, which presents intriguing insights derived from statistical analyses of the Biennale's rich history." },
       "thumbnail": "/images/70let-bienale.jpg",
@@ -118,7 +119,7 @@
       "id": "pub6",
       "type": "publication",
       "title": { "en": "Within Time, Beyond Time: a journey through CoFestival, International Festival of Contemporary Dance" },
-      "author": { "sl": "Dragana Alfirević, Nika Arhar (urednik, avtor uvoda, etc.)", "en": "Dragana Alfirević, Nika Arhar (editor, author of introduction, etc.)" },
+      "author": { "sl": "Dragana Alfirević, Nika Arhar (urednik), Snježana Premuš, Nika Božič Yams, Dejan Srhoj, Goran Bogdanovski, Andreja Rauch Podrzavnik, Doris Uhlich, Pia Brezavšček, Mateja Bučar, Maša Radi Buh, Mala Kline, Isabelle Schad, Katja Legin, Marko Milić, Jule Flierl, Irena Z. Tomažin, Janez Janša, Anna Pehrsson, Biljana Tanurovska - Kjulakovski, Alexandra Baybutt, Mitja Bravhar, Jasmina Založnik, Rok Vevar", "en": "Dragana Alfirević, Nika Arhar (editor), Snježana Premuš, Nika Božič Yams, Dejan Srhoj, Goran Bogdanovski, Andreja Rauch Podrzavnik, Doris Uhlich, Pia Brezavšček, Mateja Bučar, Maša Radi Buh, Mala Kline, Isabelle Schad, Katja Legin, Marko Milić, Jule Flierl, Irena Z. Tomažin, Janez Janša, Anna Pehrsson, Biljana Tanurovska - Kjulakovski, Alexandra Baybutt, Mitja Bravhar, Jasmina Založnik, Rok Vevar" },
       "publisher": { "sl": "Nomad Dance Academy Slovenija", "en": "Nomad Dance Academy Slovenia" },
       "year": 2022,
       "additionalInfo": { "sl": "Zbornik ob deseti obletnici, prevod v angleščino.", "en": "A reader on the tenth anniversary, translation into English" },
@@ -132,7 +133,7 @@
       "id": "pub7",
       "type": "publication",
       "title": { "sl": "V času, onkraj časa", "en": "Within Time, Beyond Time" },
-      "author": { "sl": "Nika Arhar (urednik)", "en": "Nika Arhar (editor)" },
+      "author": { "sl": "Dragana Alfirević, Nika Arhar (urednik, avtor uvoda, etc.), Snježana Premuš, Nika Božič Yams, Dejan Srhoj, Goran Bogdanovski, Andreja Rauch Podrzavnik, Doris Uhlich, Pia Brezavšček, Mateja Bučar, Maša Radi Buh, Mala Kline, Isabelle Schad, Katja Legin, Marko Milić, Jule Flierl, Irena Z. Tomažin, Janez Janša, Anna Pehrsson, Biljana Tanurovska - Kjulakovski, Alexandra Baybutt, Mitja Bravhar, Jasmina Založnik, Rok Vevar", "en": "Dragana Alfirević, Nika Arhar (editor, author of introduction, etc.), Snježana Premuš, Nika Božič Yams, Dejan Srhoj, Goran Bogdanovski, Andreja Rauch Podrzavnik, Doris Uhlich, Pia Brezavšček, Mateja Bučar, Maša Radi Buh, Mala Kline, Isabelle Schad, Katja Legin, Marko Milić, Jule Flierl, Irena Z. Tomažin, Janez Janša, Anna Pehrsson, Biljana Tanurovska - Kjulakovski, Alexandra Baybutt, Mitja Bravhar, Jasmina Založnik, Rok Vevar" },
       "publisher": { "sl": "Nomad Dance Academy Slovenija", "en": "Nomad Dance Academy Slovenia" },
       "year": 2022,
       "additionalInfo": { "sl": "Zbornik ob deseti obletnici CoFestivala", "en": "A reader on the tenth anniversary of CoFestival." },
@@ -247,6 +248,7 @@
       "author": { "sl": "Gregor Dražil (avtor, urednik), Marjeta Ciglenečki, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa", "en": "Gregor Dražil (author, editor), Marjeta Ciglenečki, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa" },
       "publisher": { "sl": "Mednarodni grafični likovni center", "en": "International Centre of Graphic Arts" },
       "year": 2019,
+      "exclude": ["Urban Belina", "Aleksandra Jovanovski", "Katja Kosi", "Jana Renee Wilcoxen, Bert Winther-Tamaki, Noriaki Sangawa, Marjeta Ciglenečki"],
       "additionalInfo": { "sl": "Avtorji: Marjeta Ciglenečki, Gregor Dražil, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa. Prevod v slovenščino: Urban Belina, Aleksandra Jovanovski. Prevod v angleščino: Katja Kosi, Jana Renee Wilcoxen.", "en": "Authors: Marjeta Ciglenečki, Gregor Dražil, Wiktor Komorowski, Bert Winther-Tamaki, Noriaki Sangawa. Translation into Slovenian: Urban Belina, Aleksandra Jovanovski. Translation into English: Katja Kosi, Jana Renee Wilcoxen." },
       "thumbnail": "/images/Simpozij-ob-razstavi-Japonska-Jugoslavija-grafični-bienale.jpeg",
       "pages": "133",
@@ -292,7 +294,7 @@
       "additionalInfo": { "sl": "Ključni pojmi: protivojna avtorska slikanica, japonska sodobna literatura, Hirošima, bombardiranje, atomska bomba, izkušnja preživele s perspektive otroka", "en": "Key topics: anti-war author's picture book, contemporary Japanese literature, Hiroshima, bombing, atomic bomb, survivor's experience from a child's perspective" },
       "thumbnail": "/images/moja-hirosima.jpg",
       "pages": "37",
-      "languageFrom": { "sl": "japonščina", "en": "Japanese" },
+      "languageFrom": { "sl": "angleščina", "en": "English" },
       "languageTo": { "sl": "slovenščina", "en": "Slovenian" },
       "publisherLink": { "sl": "https://zrakogled.si/junko-morimoto-moja-hirosima/", "en": "https://zrakogled.si/junko-morimoto-moja-hirosima/" }
     },
@@ -371,7 +373,7 @@
     {
       "id": "pub27",
       "type": "publication",
-      "title": { "sl": "Krmiljenje čopiča", "en": "Steering the brush" },
+      "title": { "sl": "Krmiljenje čopiča", "en": "Steering the Brush" },
       "author": { "sl": "Dominik Mahnič (umetnik), Maja Čehovin (urednik), Julija Hoda (urednik), Jani Pirnat (urednik, avtor uvoda, etc.)", "en": "Dominik Mahnič (artist), Maja Čehovin (editor), Julija Hoda (editor), Jani Pirnat (editor, author of introduction, etc.)" },
       "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Galerija Vžigalica", "en": "Museum and Galleries of Ljubljana, Match Gallery" },
       "year": 2024,
@@ -386,7 +388,7 @@
     {
       "id": "pub28",
       "type": "publication",
-      "title": { "sl": "Stoječe valovanje", "en": "Standing waves" },
+      "title": { "sl": "Stoječe valovanje", "en": "Standing Waves" },
       "author": { "sl": "Tarek Atoui (umetnik, intervjuvanec), Mara Anjoli Vujić (urednik, intervjuvanec)", "en": "Tarek Atoui (artist, interviewee), Mara Anjoli Vujić (editor, interviewer)" },
       "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Cukrarna", "en": "Museum and Galleries of Ljubljana, Cukrarna Gallery" },
       "year": 2024,
@@ -416,7 +418,7 @@
     {
       "id": "pub32",
       "type": "publication",
-      "title": { "sl": "Na platnu : Muzej in galerije mesta Ljubljane, Mestna galerija Ljubljana = On canvas : Museum and Galleries of Ljubljana, City Art Gallery Ljubljana", "en": "On canvas : Museum and Galleries of Ljubljana, City Art Gallery Ljubljana" },
+      "title": { "sl": "Arjan Pregl: Na platnu", "en": "Arjan Pregl: On Canvas" },
       "author": { "sl": "Arjan Pregl", "en": "Arjan Pregl" },
       "publisher": { "sl": "Muzej in galerije mesta Ljubljane, Mestna galerija, Institut Jožef Stefan; Zavod za turizem, Galerija mesta, Ptuj", "en": "Museum and Galleries of Ljubljana, City Art Gallery, Jožef Stefan Institute; Tourism Board, Gallery of the City, Ptuj" },
       "year": 2021,
@@ -868,7 +870,7 @@
           "name": "Urban Belina, Gašper Malej, Marco Apollonio"
         }
       ],
-      "thumbnail": "/images/besedatrans.jpg"
+      "thumbnail": "/images/base.jpg"
     },
     {
       "id": "proj12",

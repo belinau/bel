@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, memo } from 'react';
 import { motion, AnimatePresence, useMotionValue, useTransform, useAnimationFrame } from 'framer-motion';
 
 // Mobile-optimized path item component
-const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePos, onSelect, getText }) => {
+const MobilePathItem = React.forwardRef(({ item, index, total, pathRefs, animationOffset, mousePos, onSelect, getText }, ref) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -40,6 +40,7 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
 
   return (
     <motion.div
+      ref={ref}
       layout
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
@@ -74,7 +75,7 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
               src={item.thumbnail || '/images/base.jpg'}
               alt={getText(item.title)}
               className="w-full h-full object-cover"
-              onError={(e) => { e.target.src = '/images/base.jpg'; }}
+              onError={(e) => { e.currentTarget.src = '/images/base.jpg'; }}
             />
             <div className="absolute bottom-0 left-0 right-0 p-1 bg-gradient-to-t from-black/60 to-transparent">
               <p className="text-white text-[7px] line-clamp-1 px-1">{item.year}</p>
@@ -86,7 +87,7 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
               src={item.thumbnail || '/images/base.jpg'}
               alt={getText(item.title)}
               className="w-full h-full object-cover"
-              onError={(e) => { e.target.src = '/images/base.jpg'; }}
+              onError={(e) => { e.currentTarget.src = '/images/base.jpg'; }}
             />
             <div className="absolute bottom-0 left-0 right-0 p-1 bg-gradient-to-t from-black/60 to-transparent">
               <p className="text-white text-[6px] line-clamp-1 px-1">{getText(item.title)}</p>
@@ -96,11 +97,16 @@ const MobilePathItem = ({ item, index, total, pathRefs, animationOffset, mousePo
       </div>
     </motion.div>
   );
-};
+});
 
 // Mobile-optimized canvas component
 const MobileOptimizedCanvas = memo(({ items, mousePos, onSelect, getText }) => {
   const pathRefs = useRef([]);
+
+  if (!items || items.length === 0 || !mousePos) {
+    return null;
+  }
+
   const [animationOffset, setAnimationOffset] = useState(0);
 
   useEffect(() => {
